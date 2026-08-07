@@ -20,7 +20,7 @@
 <!-- Animated Stats -->
 <img src="https://img.shields.io/badge/Projects-3-FFB300?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a3e"/>
 <img src="https://img.shields.io/badge/Status-Active-00C853?style=for-the-badge&logo=statuspage&logoColor=white&labelColor=1a1a3e"/>
-<img src="https://img.shields.io/badge/License-GPL--3.0-7c3aed?style=for-the-badge&logo=gnu&logoColor=white&labelColor=1a1a3e"/>
+<img src="https://img.shields.io/badge/Licenses-GPL%2FMIT-7c3aed?style=for-the-badge&logo=gnu&logoColor=white&labelColor=1a1a3e"/>
 
 <br/><br/>
 
