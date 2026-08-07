@@ -211,7 +211,7 @@ If you find our work useful, please consider giving us a star! ⭐
 
 <br/>
 
-**Built with ❤️ by NAWALA Team**
+**NAWALA Team**
 
 <sub>© 2026 nawala-team • GPL-3.0 License</sub>
 
