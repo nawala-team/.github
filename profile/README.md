@@ -102,17 +102,21 @@
 
 <!-- Sanchala OS -->
 <a href="https://github.com/nawala-team/sanchala-os">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=nawala-team&repo=sanchala-os&theme=radical&hide_border=true&bg_color=0D1117&title_color=FFB300&icon_color=FFB300&text_color=FFFFFF" />
+<img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/sanchala-card.svg" alt="Sanchala OS" />
 </a>
+
+<br/><br/>
 
 <!-- Nawala Gateway -->
 <a href="https://github.com/nawala-team/nawala-gateway-platform">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=nawala-team&repo=nawala-gateway-platform&theme=radical&hide_border=true&bg_color=0D1117&title_color=7c3aed&icon_color=7c3aed&text_color=FFFFFF" />
+<img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/nawala-card.svg" alt="Nawala Gateway" />
 </a>
+
+<br/><br/>
 
 <!-- Raksha Security -->
 <a href="https://github.com/nawala-team/raksha-security-platform">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=nawala-team&repo=raksha-security-platform&theme=radical&hide_border=true&bg_color=0D1117&title_color=00d4ff&icon_color=00d4ff&text_color=FFFFFF" />
+<img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/raksha-card.svg" alt="Raksha Security" />
 </a>
 
 </div>
