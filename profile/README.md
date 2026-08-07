@@ -17,7 +17,7 @@
 
 <!-- Stats Badges -->
 [![Projects](https://img.shields.io/badge/Projects-3-gold?style=for-the-badge&logo=github)](https://github.com/orgs/nawala-team/repositories)
-[![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge&logo=gnu)](LICENSE)
+[![Sanchala](https://img.shields.io/badge/Sanchala-GPL--3.0-FFB300?style=for-the-badge&logo=gnu)](https://github.com/nawala-team/sanchala-os/blob/main/LICENSE) [![Nawala](https://img.shields.io/badge/Nawala-GPL--3.0-7c3aed?style=for-the-badge&logo=gnu)](https://github.com/nawala-team/nawala-gateway-platform/blob/main/LICENSE) [![Raksha](https://img.shields.io/badge/Raksha-GPL--3.0-00d4ff?style=for-the-badge&logo=gnu)](https://github.com/nawala-team/raksha-security-platform/blob/main/LICENSE)
 [![Status](https://img.shields.io/badge/Status-Active-00C853?style=for-the-badge&logo=statuspage)](https://github.com/nawala-team)
 
 </div>
