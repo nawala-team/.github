@@ -20,24 +20,9 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=2000&color=7C3AED&center=true&vCenter=true&width=600&lines=NAWALA;Sanskrit+for+New+or+Novel" />
-
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=16&duration=2500&pause=1000&color=94A3B8&center=true&vCenter=true&width=700&lines=We+build+modern%2C+secure%2C+and+elegant+infrastructure+solutions;Inspired+by+ancient+wisdom%2C+built+for+the+future;Security+%E2%80%A2+Performance+%E2%80%A2+Beauty+%E2%80%A2+Open+Source" />
+<img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/about-card.svg" width="100%"/>
 
 </div>
-
-&nbsp;
-
-<table align="center">
-<tr>
-<td align="center" width="25%"><b>Security First</b><br/><sub>Military-grade encryption</sub></td>
-<td align="center" width="25%"><b>Performance</b><br/><sub>Blazing fast</sub></td>
-<td align="center" width="25%"><b>Beautiful</b><br/><sub>Modern UI/UX</sub></td>
-<td align="center" width="25%"><b>Open Source</b><br/><sub>Community driven</sub></td>
-</tr>
-</table>
 
 &nbsp;
 
