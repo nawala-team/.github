@@ -2,40 +2,82 @@
 
 <img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/nawala-banner.svg" width="100%"/>
 
-<br/>
+<br/><br/>
 
-[![Status](https://img.shields.io/badge/Status-Active-00C853?style=flat-square)](https://github.com/nawala-team)
-[![Projects](https://img.shields.io/badge/Projects-3-7c3aed?style=flat-square)](https://github.com/nawala-team)
-[![License](https://img.shields.io/badge/License-MIT%20%2F%20GPL-blue?style=flat-square)](https://github.com/nawala-team)
+[![Status](https://img.shields.io/badge/Status-Active-00C853?style=for-the-badge&logo=statuspage&logoColor=white)](#)
+[![Projects](https://img.shields.io/badge/Projects-3-7c3aed?style=for-the-badge&logo=github&logoColor=white)](#projects)
+[![License](https://img.shields.io/badge/Open_Source-MIT%2FGPL-00d4ff?style=for-the-badge&logo=opensource&logoColor=white)](#)
 
 </div>
 
 ---
 
-### 💻 Sanchala OS
-Secure Linux distribution dengan macOS-inspired UI dan 8-layer security architecture.
+## 🚀 Projects
 
-➡️ [View Repository](https://github.com/nawala-team/sanchala-os)
+<table>
+<tr>
+<td align="center" width="33%">
+<a href="https://github.com/nawala-team/sanchala-os">
+<img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/sanchala-card.svg" width="100%"/>
+</a>
+<br/>
+<b>💻 Sanchala OS</b><br/>
+<code>v1.0 Astra</code><br/>
+<sub>Secure Linux + macOS UI</sub>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/nawala-team/nawala-gateway-platform">
+<img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/nawala-card.svg" width="100%"/>
+</a>
+<br/>
+<b>🔐 Nawala Gateway</b><br/>
+<code>v2.0.1</code><br/>
+<sub>API Gateway + WAF</sub>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/nawala-team/raksha-security-platform">
+<img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/raksha-card.svg" width="100%"/>
+</a>
+<br/>
+<b>🛡️ Raksha Security</b><br/>
+<code>v1.3.1</code><br/>
+<sub>SIEM + ML Detection</sub>
+</td>
+</tr>
+</table>
 
 ---
 
-### 🔐 Nawala Gateway  
-Enterprise API Gateway dengan WAF, OAuth2, rate limiting, dan AI-powered anomaly detection.
+## 👥 Team
 
-➡️ [View Repository](https://github.com/nawala-team/nawala-gateway-platform)
+<table>
+<tr>
+<td align="center" width="50%">
+<a href="https://github.com/dansiapa">
+<img src="https://github.com/dansiapa.png" width="100" style="border-radius:50%"/>
+<br/><br/>
+<b>Rangga Putra</b><br/>
+<sub>@dansiapa</sub><br/>
+<sub>👑 Founder</sub>
+</a>
+</td>
+<td align="center" width="50%">
+<a href="https://github.com/LeoTarung">
+<img src="https://github.com/LeoTarung.png" width="100" style="border-radius:50%"/>
+<br/><br/>
+<b>Leo Tarung</b><br/>
+<sub>@LeoTarung</sub><br/>
+<sub>🛠️ Core Member</sub>
+</a>
+</td>
+</tr>
+</table>
 
 ---
 
-### 🛡️ Raksha Security
-SIEM platform dengan ML threat detection, compliance automation, dan dark web monitoring.
-
-➡️ [View Repository](https://github.com/nawala-team/raksha-security-platform)
-
----
+## 🛠️ Tech Stack
 
 <div align="center">
-
-### 🛠️ Tech Stack
 
 ![Rust](https://img.shields.io/badge/Rust-000?style=flat-square&logo=rust&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
@@ -48,10 +90,20 @@ SIEM platform dengan ML threat detection, compliance automation, dan dark web mo
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
+</div>
+
 ---
 
-### 📬 Contact
+<div align="center">
 
-[![Email](https://img.shields.io/badge/Email-dummymailrangga@gmail.com-7c3aed?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dummymailrangga@gmail.com)
+### 📬 Get in Touch
+
+[![Join Team](https://img.shields.io/badge/🤝_Join_Team-7c3aed?style=for-the-badge)](mailto:dummymailrangga@gmail.com?subject=Join%20NAWALA%20TEAM&body=Hi!%20Saya%20tertarik%20untuk%20kontribusi%20ke%20project...)
+[![Report Bug](https://img.shields.io/badge/🐛_Report_Bug-FF5252?style=for-the-badge)](mailto:dummymailrangga@gmail.com?subject=Bug%20Report&body=Project:%20%0ABug:%20)
+[![Say Hello](https://img.shields.io/badge/💬_Say_Hello-00C853?style=for-the-badge)](mailto:dummymailrangga@gmail.com?subject=Hello%20NAWALA!)
+
+<br/>
+
+⭐ **Star our repos if you find them useful!**
 
 </div>

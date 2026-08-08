@@ -1,71 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300">
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0f0f1a"/>
+      <stop offset="0%" style="stop-color:#0a0a1a"/>
       <stop offset="50%" style="stop-color:#1a1a2e"/>
-      <stop offset="100%" style="stop-color:#16213e"/>
+      <stop offset="100%" style="stop-color:#0f0f23"/>
     </linearGradient>
-    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#7c3aed"/>
-      <stop offset="100%" style="stop-color:#a855f7"/>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7c3aed"><animate attributeName="stop-color" values="#7c3aed;#00d4ff;#FFB300;#7c3aed" dur="4s" repeatCount="indefinite"/></stop>
+      <stop offset="50%" style="stop-color:#00d4ff"><animate attributeName="stop-color" values="#00d4ff;#FFB300;#7c3aed;#00d4ff" dur="4s" repeatCount="indefinite"/></stop>
+      <stop offset="100%" style="stop-color:#FFB300"><animate attributeName="stop-color" values="#FFB300;#7c3aed;#00d4ff;#FFB300" dur="4s" repeatCount="indefinite"/></stop>
     </linearGradient>
-    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#06b6d4"/>
-      <stop offset="100%" style="stop-color:#22d3ee"/>
-    </linearGradient>
-    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#f59e0b"/>
-      <stop offset="100%" style="stop-color:#fbbf24"/>
-    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
   
   <!-- Background -->
-  <rect width="900" height="280" fill="url(#bgGrad)" rx="16"/>
+  <rect width="900" height="300" fill="url(#bgGrad)"/>
   
-  <!-- Accent line top -->
-  <rect x="50" y="0" width="800" height="3" fill="url(#purpleGrad)" rx="1"/>
+  <!-- Animated accent line -->
+  <rect x="0" y="0" width="900" height="4" fill="url(#accentLine)"/>
   
-  <!-- Left decorative element -->
-  <circle cx="80" cy="140" r="120" fill="#7c3aed" opacity="0.08"/>
-  <circle cx="80" cy="140" r="80" fill="#7c3aed" opacity="0.05"/>
+  <!-- Floating particles -->
+  <circle cx="100" cy="80" r="3" fill="#7c3aed" opacity="0.8"><animate attributeName="cy" values="80;220;80" dur="6s" repeatCount="indefinite"/></circle>
+  <circle cx="200" cy="200" r="2" fill="#00d4ff" opacity="0.6"><animate attributeName="cy" values="200;60;200" dur="5s" repeatCount="indefinite"/></circle>
+  <circle cx="750" cy="100" r="3" fill="#FFB300" opacity="0.7"><animate attributeName="cy" values="100;250;100" dur="7s" repeatCount="indefinite"/></circle>
+  <circle cx="850" cy="180" r="2" fill="#7c3aed" opacity="0.5"><animate attributeName="cy" values="180;50;180" dur="4s" repeatCount="indefinite"/></circle>
+  <circle cx="400" cy="50" r="2" fill="#00d4ff" opacity="0.6"><animate attributeName="cy" values="50;250;50" dur="8s" repeatCount="indefinite"/></circle>
+  <circle cx="600" cy="250" r="2" fill="#FFB300" opacity="0.5"><animate attributeName="cy" values="250;30;250" dur="6s" repeatCount="indefinite"/></circle>
   
-  <!-- Main content -->
-  <text x="450" y="85" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="56" font-weight="800" fill="#ffffff">NAWALA TEAM</text>
+  <!-- Glowing orbs background -->
+  <circle cx="120" cy="150" r="100" fill="#7c3aed" opacity="0.1"><animate attributeName="r" values="100;120;100" dur="3s" repeatCount="indefinite"/></circle>
+  <circle cx="780" cy="150" r="100" fill="#00d4ff" opacity="0.08"><animate attributeName="r" values="100;115;100" dur="4s" repeatCount="indefinite"/></circle>
   
-  <!-- Tagline -->
-  <text x="450" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#94a3b8">Building Modern Security &amp; Infrastructure Solutions</text>
+  <!-- Main title with glow -->
+  <text x="450" y="100" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="60" font-weight="800" fill="#fff" filter="url(#glow)">NAWALA TEAM</text>
   
-  <!-- Divider -->
-  <line x1="350" y1="150" x2="550" y2="150" stroke="#334155" stroke-width="1"/>
+  <!-- Animated tagline -->
+  <text x="450" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#94a3b8">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+    Security • Infrastructure • Open Source
+  </text>
   
-  <!-- Three project cards -->
-  <g transform="translate(170, 175)">
-    <!-- Sanchala -->
-    <rect x="0" y="0" width="160" height="70" rx="10" fill="#1e1e2e" stroke="#f59e0b" stroke-width="1.5" opacity="0.9"/>
-    <text x="80" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#f59e0b">Sanchala OS</text>
-    <text x="80" y="48" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#94a3b8">Secure Linux Distro</text>
-    <text x="80" y="62" text-anchor="middle" font-family="monospace" font-size="9" fill="#64748b">v1.0 Astra</text>
+  <!-- Sanskrit with pulse -->
+  <text x="450" y="175" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#7c3aed">
+    <animate attributeName="fill" values="#7c3aed;#00d4ff;#FFB300;#7c3aed" dur="6s" repeatCount="indefinite"/>
+    नवल • संचल • रक्षा
+  </text>
+  
+  <!-- Project badges animated -->
+  <g transform="translate(250, 220)">
+    <rect x="0" y="0" width="120" height="35" rx="17" fill="#FFB300" opacity="0.15"><animate attributeName="opacity" values="0.15;0.3;0.15" dur="2s" repeatCount="indefinite"/></rect>
+    <text x="60" y="23" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#FFB300">Sanchala</text>
+  </g>
+  <g transform="translate(390, 220)">
+    <rect x="0" y="0" width="120" height="35" rx="17" fill="#7c3aed" opacity="0.15"><animate attributeName="opacity" values="0.15;0.3;0.15" dur="2s" repeatCount="indefinite" begin="0.5s"/></rect>
+    <text x="60" y="23" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#a855f7">Nawala</text>
+  </g>
+  <g transform="translate(530, 220)">
+    <rect x="0" y="0" width="120" height="35" rx="17" fill="#00d4ff" opacity="0.15"><animate attributeName="opacity" values="0.15;0.3;0.15" dur="2s" repeatCount="indefinite" begin="1s"/></rect>
+    <text x="60" y="23" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#22d3ee">Raksha</text>
   </g>
   
-  <g transform="translate(370, 175)">
-    <!-- Nawala -->
-    <rect x="0" y="0" width="160" height="70" rx="10" fill="#1e1e2e" stroke="#7c3aed" stroke-width="1.5" opacity="0.9"/>
-    <text x="80" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#a855f7">Nawala Gateway</text>
-    <text x="80" y="48" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#94a3b8">API Gateway + WAF</text>
-    <text x="80" y="62" text-anchor="middle" font-family="monospace" font-size="9" fill="#64748b">v2.0.1</text>
-  </g>
-  
-  <g transform="translate(570, 175)">
-    <!-- Raksha -->
-    <rect x="0" y="0" width="160" height="70" rx="10" fill="#1e1e2e" stroke="#06b6d4" stroke-width="1.5" opacity="0.9"/>
-    <text x="80" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#22d3ee">Raksha Security</text>
-    <text x="80" y="48" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#94a3b8">SIEM + ML Detection</text>
-    <text x="80" y="62" text-anchor="middle" font-family="monospace" font-size="9" fill="#64748b">v1.3.1</text>
-  </g>
-  
-  <!-- Right decorative -->
-  <circle cx="850" cy="60" r="80" fill="#06b6d4" opacity="0.06"/>
-  
-  <!-- Sanskrit subtle -->
-  <text x="830" y="265" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#475569">नवल • संचल • रक्षा</text>
+  <!-- Bottom accent -->
+  <rect x="0" y="296" width="900" height="4" fill="url(#accentLine)"/>
 </svg>
