@@ -60,6 +60,7 @@
 <sub>@dansiapa</sub>
 <br/><br/>
 <img src="https://img.shields.io/badge/Founder-7c3aed?style=flat-square"/>
+<img src="https://img.shields.io/badge/Developer-00d4ff?style=flat-square"/>
 </a>
 </td>
 <td align="center">
@@ -70,7 +71,7 @@
 <br/>
 <sub>@LeoTarung</sub>
 <br/><br/>
-<img src="https://img.shields.io/badge/Core_Member-00d4ff?style=flat-square"/>
+<img src="https://img.shields.io/badge/Developer-00d4ff?style=flat-square"/>
 </a>
 </td>
 </tr>
