@@ -4,7 +4,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=7C3AED&center=true&vCenter=true&width=500&lines=Security+First+%F0%9F%94%92;High+Performance+%E2%9A%A1;Beautiful+Design+%F0%9F%8E%A8;Open+Source+%F0%9F%92%9C" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=7C3AED&center=true&vCenter=true&width=500&lines=Security+First;High+Performance;Beautiful+Design;Open+Source" alt="Typing SVG" />
 
 <br/><br/>
 
