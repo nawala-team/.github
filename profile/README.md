@@ -44,24 +44,13 @@
 
 <div align="center">
 
-```ascii
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                                                                              ║
-║   ███╗   ██╗ █████╗ ██╗    ██╗ █████╗ ██╗      █████╗                        ║
-║   ████╗  ██║██╔══██╗██║    ██║██╔══██╗██║     ██╔══██╗                       ║
-║   ██╔██╗ ██║███████║██║ █╗ ██║███████║██║     ███████║                       ║
-║   ██║╚██╗██║██╔══██║██║███╗██║██╔══██║██║     ██╔══██║                       ║
-║   ██║ ╚████║██║  ██║╚███╔███╔╝██║  ██║███████╗██║  ██║                       ║
-║   ╚═╝  ╚═══╝╚═╝  ╚═╝ ╚══╝╚══╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝                       ║
-║                                                                              ║
-║               「 नवल 」 Sanskrit for "New" or "Novel"                        ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-```
+### 「 नवल 」 NAWALA
+
+**Sanskrit for "New" or "Novel"**
+
+> *We build modern, secure, and elegant infrastructure solutions inspired by ancient wisdom.*
 
 </div>
-
-> **We build modern, secure, and elegant infrastructure solutions inspired by ancient wisdom.**
 
 <br/>
 
@@ -83,6 +72,12 @@
 <br/><sub>Intuitive & modern<br/>user experience</sub>
 </td>
 <td align="center" width="25%">
+<img src="https://img.icons8.com/fluency/96/open-source.png" width="60"/>
+<br/><b>Open Source</b>
+<br/><sub>Free & community<br/>driven</sub>
+</td>
+</tr>
+</table>
 <img src="https://img.icons8.com/fluency/96/open-source.png" width="60"/>
 <br/><b>Open Source</b>
 <br/><sub>Community-driven<br/>development</sub>
