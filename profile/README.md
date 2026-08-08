@@ -71,13 +71,9 @@
 
 ### Contact
 
-**Email:** dummymailrangga@gmail.com
-
 <div align="center">
 
-[![Join Team](https://img.shields.io/badge/Join_Team-7c3aed?style=for-the-badge)](mailto:dummymailrangga@gmail.com?subject=Join%20NAWALA%20TEAM&body=Hi!%20Saya%20tertarik%20untuk%20kontribusi%20ke%20project...)
-[![Report Bug](https://img.shields.io/badge/Report_Bug-FF5252?style=for-the-badge)](mailto:dummymailrangga@gmail.com?subject=Bug%20Report&body=Project:%20%0ABug:%20)
-[![Say Hello](https://img.shields.io/badge/Say_Hello-00C853?style=for-the-badge)](mailto:dummymailrangga@gmail.com?subject=Hello%20NAWALA!)
+<img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/contact-card.svg" width="100%"/>
 
 </div>
 

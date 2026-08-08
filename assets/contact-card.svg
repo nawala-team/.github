@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 150">
+  <defs>
+    <linearGradient id="contactBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="btnPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7c3aed"/>
+      <stop offset="100%" style="stop-color:#a855f7"/>
+    </linearGradient>
+    <linearGradient id="btnRed" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ef4444"/>
+      <stop offset="100%" style="stop-color:#f87171"/>
+    </linearGradient>
+    <linearGradient id="btnGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#10b981"/>
+      <stop offset="100%" style="stop-color:#34d399"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="900" height="150" fill="url(#contactBg)" rx="16"/>
+  
+  <!-- Left side - Contact info -->
+  <g transform="translate(50, 40)">
+    <text x="0" y="20" font-family="system-ui, sans-serif" font-size="24" font-weight="700" fill="#fff">Get In Touch</text>
+    <text x="0" y="50" font-family="system-ui, sans-serif" font-size="14" fill="#94a3b8">Have a question or want to collaborate?</text>
+    <text x="0" y="80" font-family="system-ui, sans-serif" font-size="14" fill="#7c3aed">dummymailrangga@gmail.com</text>
+  </g>
+  
+  <!-- Right side - Buttons -->
+  <g transform="translate(500, 45)">
+    <!-- Join Team -->
+    <rect x="0" y="0" width="120" height="40" rx="20" fill="url(#btnPurple)"/>
+    <text x="60" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#fff">Join Team</text>
+    
+    <!-- Report Bug -->
+    <rect x="135" y="0" width="120" height="40" rx="20" fill="url(#btnRed)"/>
+    <text x="195" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#fff">Report Bug</text>
+    
+    <!-- Say Hello -->
+    <rect x="270" y="0" width="120" height="40" rx="20" fill="url(#btnGreen)"/>
+    <text x="330" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#fff">Say Hello</text>
+  </g>
+  
+  <!-- Bottom text -->
+  <text x="630" y="115" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#475569">Star our repos if you find them useful!</text>
+</svg>
