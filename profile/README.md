@@ -14,36 +14,21 @@
 
 </div>
 
-<br/>
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
+
+### About Us
+
+> **NAWALA** (नवल) — *Sanskrit for "New"*
+>
+> We build modern, secure, and elegant infrastructure solutions inspired by ancient wisdom.
+
+| Security First | Performance | Beautiful | Open Source |
+|:---:|:---:|:---:|:---:|
+| Military-grade encryption | Blazing fast | Modern UI/UX | Community driven |
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
-## About Us
-
-<div align="center">
-
-**NAWALA** (नवल) — *Sanskrit for "New"*
-
-We build modern, secure, and elegant infrastructure solutions inspired by ancient wisdom.
-
-</div>
-
-<br/>
-
-<table align="center">
-<tr>
-<td align="center" width="25%"><b>Security First</b><br/><sub>Military-grade encryption</sub></td>
-<td align="center" width="25%"><b>Performance</b><br/><sub>Blazing fast</sub></td>
-<td align="center" width="25%"><b>Beautiful</b><br/><sub>Modern UI/UX</sub></td>
-<td align="center" width="25%"><b>Open Source</b><br/><sub>Community driven</sub></td>
-</tr>
-</table>
-
-<br/>
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
-
-## Projects
+### Projects
 
 <div align="center">
 
@@ -56,82 +41,51 @@ We build modern, secure, and elegant infrastructure solutions inspired by ancien
 
 </div>
 
-<br/>
-
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
-## Team
+### Team
 
 <div align="center">
 
-<table>
-<tr>
-<td align="center" width="50%">
-<a href="https://github.com/dansiapa">
-<img src="https://github.com/dansiapa.png" width="120"/>
-<br/><br/>
-<b>Rangga Putra</b><br/>
-<sub>@dansiapa • Founder</sub>
-</a>
-</td>
-<td align="center" width="50%">
-<a href="https://github.com/LeoTarung">
-<img src="https://github.com/LeoTarung.png" width="120"/>
-<br/><br/>
-<b>Leo Tarung</b><br/>
-<sub>@LeoTarung • Core Member</sub>
-</a>
-</td>
-</tr>
-</table>
+| | |
+|:---:|:---:|
+| <a href="https://github.com/dansiapa"><img src="https://github.com/dansiapa.png" width="100"/></a> | <a href="https://github.com/LeoTarung"><img src="https://github.com/LeoTarung.png" width="100"/></a> |
+| **Rangga Putra** | **Leo Tarung** |
+| @dansiapa • Founder | @LeoTarung • Core Member |
 
 </div>
 
-<br/>
-
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
-## Tech Stack
+### Tech Stack
 
 <div align="center">
 
-**Languages**
-
+**Languages**<br/>
 <img src="https://skillicons.dev/icons?i=rust,java,python,typescript,bash&theme=dark" />
 
-**Frameworks & Tools**
-
+**Frameworks**<br/>
 <img src="https://skillicons.dev/icons?i=spring,nextjs,react,qt,tailwind&theme=dark" />
 
-**Infrastructure**
-
+**Infrastructure**<br/>
 <img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,nginx,cloudflare&theme=dark" />
 
-**Database & Monitoring**
-
+**Database**<br/>
 <img src="https://skillicons.dev/icons?i=postgres,redis,elasticsearch,grafana,prometheus&theme=dark" />
 
 </div>
 
-<br/>
-
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
-## Contact
-
-<div align="center">
+### Contact
 
 **Email:** dummymailrangga@gmail.com
 
-<br/>
+<div align="center">
 
 [![Join Team](https://img.shields.io/badge/Join_Team-7c3aed?style=for-the-badge)](mailto:dummymailrangga@gmail.com?subject=Join%20NAWALA%20TEAM&body=Hi!%20Saya%20tertarik%20untuk%20kontribusi%20ke%20project...)
 [![Report Bug](https://img.shields.io/badge/Report_Bug-FF5252?style=for-the-badge)](mailto:dummymailrangga@gmail.com?subject=Bug%20Report&body=Project:%20%0ABug:%20)
 [![Say Hello](https://img.shields.io/badge/Say_Hello-00C853?style=for-the-badge)](mailto:dummymailrangga@gmail.com?subject=Hello%20NAWALA!)
-
-<br/>
-
-**Star our repos if you find them useful!**
 
 </div>
 
