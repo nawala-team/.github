@@ -38,17 +38,9 @@
 
 <div align="center">
 
-```
-╭────────────────────────────────────────────────────────╮
-│                                                        │
-│   🌟  NAWALA (नवल) — Sanskrit for "New"             │
-│                                                        │
-│   We build modern, secure, and elegant                 │
-│   infrastructure solutions inspired by                 │
-│   ancient wisdom.                                      │
-│                                                        │
-╰────────────────────────────────────────────────────────╯
-```
+### **NAWALA** (नवल) — *Sanskrit for "New"*
+
+We build modern, secure, and elegant infrastructure solutions inspired by ancient wisdom.
 
 </div>
 
@@ -57,10 +49,10 @@
 <div align="center">
 <table>
 <tr>
-<td align="center">🔒<br/><b>Security First</b><br/><sub>Military-grade encryption</sub></td>
-<td align="center">⚡<br/><b>Performance</b><br/><sub>Blazing fast</sub></td>
-<td align="center">🎨<br/><b>Beautiful</b><br/><sub>Modern UI/UX</sub></td>
-<td align="center">💜<br/><b>Open Source</b><br/><sub>Community driven</sub></td>
+<td align="center"><b>Security First</b><br/><sub>Military-grade encryption</sub></td>
+<td align="center"><b>Performance</b><br/><sub>Blazing fast</sub></td>
+<td align="center"><b>Beautiful</b><br/><sub>Modern UI/UX</sub></td>
+<td align="center"><b>Open Source</b><br/><sub>Community driven</sub></td>
 </tr>
 </table>
 </div>
