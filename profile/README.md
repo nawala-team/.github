@@ -14,19 +14,34 @@
 
 </div>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
+&nbsp;
 
 ### About Us
 
-> **NAWALA** (नवल) — *Sanskrit for "New"*
->
-> We build modern, secure, and elegant infrastructure solutions inspired by ancient wisdom.
+<div align="center">
 
-| Security First | Performance | Beautiful | Open Source |
-|:---:|:---:|:---:|:---:|
-| Military-grade encryption | Blazing fast | Modern UI/UX | Community driven |
+<img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=700&size=28&duration=3000&pause=2000&color=7C3AED&center=true&vCenter=true&width=600&lines=NAWALA+(नवल);Sanskrit+for+%22New%22+or+%22Novel%22" />
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=16&duration=2500&pause=1000&color=94A3B8&center=true&vCenter=true&width=700&lines=We+build+modern%2C+secure%2C+and+elegant+infrastructure+solutions;Inspired+by+ancient+wisdom%2C+built+for+the+future;Security+%E2%80%A2+Performance+%E2%80%A2+Beauty+%E2%80%A2+Open+Source" />
+
+</div>
+
+&nbsp;
+
+<table align="center">
+<tr>
+<td align="center" width="25%"><b>Security First</b><br/><sub>Military-grade encryption</sub></td>
+<td align="center" width="25%"><b>Performance</b><br/><sub>Blazing fast</sub></td>
+<td align="center" width="25%"><b>Beautiful</b><br/><sub>Modern UI/UX</sub></td>
+<td align="center" width="25%"><b>Open Source</b><br/><sub>Community driven</sub></td>
+</tr>
+</table>
+
+&nbsp;
+
+---
 
 ### Projects
 
@@ -41,7 +56,9 @@
 
 </div>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
+&nbsp;
+
+---
 
 ### Team
 
@@ -55,7 +72,9 @@
 
 </div>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
+&nbsp;
+
+---
 
 ### Tech Stack
 
@@ -75,7 +94,9 @@
 
 </div>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
+&nbsp;
+
+---
 
 ### Contact
 
@@ -89,6 +110,6 @@
 
 </div>
 
-<br/>
+&nbsp;
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
