@@ -49,7 +49,32 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/team-card.svg" width="100%"/>
+<table>
+<tr>
+<td align="center">
+<a href="https://github.com/dansiapa">
+<img src="https://github.com/dansiapa.png" width="120" style="border-radius:50%"/>
+<br/><br/>
+<b>Rangga Putra</b>
+<br/>
+<sub>@dansiapa</sub>
+<br/><br/>
+<img src="https://img.shields.io/badge/Founder-7c3aed?style=flat-square"/>
+</a>
+</td>
+<td align="center">
+<a href="https://github.com/LeoTarung">
+<img src="https://github.com/LeoTarung.png" width="120" style="border-radius:50%"/>
+<br/><br/>
+<b>Leo Tarung</b>
+<br/>
+<sub>@LeoTarung</sub>
+<br/><br/>
+<img src="https://img.shields.io/badge/Core_Member-00d4ff?style=flat-square"/>
+</a>
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -61,7 +86,33 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/techstack-card.svg" width="100%"/>
+**Languages**<br/>
+![Rust](https://img.shields.io/badge/Rust-dea584?style=for-the-badge&logo=rust&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+
+**Frameworks**<br/>
+![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Qt](https://img.shields.io/badge/Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+
+**Infrastructure**<br/>
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/K8s-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+
+**Database**<br/>
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elastic-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 
 </div>
 
