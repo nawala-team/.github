@@ -1,13 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1e1e2e"/>
-      <stop offset="100%" style="stop-color:#313244"/>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f1a"/>
+      <stop offset="50%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7c3aed"/>
+      <stop offset="100%" style="stop-color:#a855f7"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#06b6d4"/>
+      <stop offset="100%" style="stop-color:#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f59e0b"/>
+      <stop offset="100%" style="stop-color:#fbbf24"/>
     </linearGradient>
   </defs>
-  <rect width="800" height="200" fill="url(#bg)" rx="12"/>
-  <rect width="798" height="198" x="1" y="1" fill="none" stroke="#7c3aed" stroke-width="1" rx="11" opacity="0.3"/>
-  <text x="400" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="48" font-weight="700" fill="#fff">NAWALA TEAM</text>
-  <text x="400" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#a6adc8">Security • Infrastructure • Open Source</text>
-  <text x="400" y="165" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6c7086">नवल • संचल • रक्षा</text>
+  
+  <!-- Background -->
+  <rect width="900" height="280" fill="url(#bgGrad)" rx="16"/>
+  
+  <!-- Accent line top -->
+  <rect x="50" y="0" width="800" height="3" fill="url(#purpleGrad)" rx="1"/>
+  
+  <!-- Left decorative element -->
+  <circle cx="80" cy="140" r="120" fill="#7c3aed" opacity="0.08"/>
+  <circle cx="80" cy="140" r="80" fill="#7c3aed" opacity="0.05"/>
+  
+  <!-- Main content -->
+  <text x="450" y="85" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="56" font-weight="800" fill="#ffffff">NAWALA TEAM</text>
+  
+  <!-- Tagline -->
+  <text x="450" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#94a3b8">Building Modern Security &amp; Infrastructure Solutions</text>
+  
+  <!-- Divider -->
+  <line x1="350" y1="150" x2="550" y2="150" stroke="#334155" stroke-width="1"/>
+  
+  <!-- Three project cards -->
+  <g transform="translate(170, 175)">
+    <!-- Sanchala -->
+    <rect x="0" y="0" width="160" height="70" rx="10" fill="#1e1e2e" stroke="#f59e0b" stroke-width="1.5" opacity="0.9"/>
+    <text x="80" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#f59e0b">Sanchala OS</text>
+    <text x="80" y="48" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#94a3b8">Secure Linux Distro</text>
+    <text x="80" y="62" text-anchor="middle" font-family="monospace" font-size="9" fill="#64748b">v1.0 Astra</text>
+  </g>
+  
+  <g transform="translate(370, 175)">
+    <!-- Nawala -->
+    <rect x="0" y="0" width="160" height="70" rx="10" fill="#1e1e2e" stroke="#7c3aed" stroke-width="1.5" opacity="0.9"/>
+    <text x="80" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#a855f7">Nawala Gateway</text>
+    <text x="80" y="48" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#94a3b8">API Gateway + WAF</text>
+    <text x="80" y="62" text-anchor="middle" font-family="monospace" font-size="9" fill="#64748b">v2.0.1</text>
+  </g>
+  
+  <g transform="translate(570, 175)">
+    <!-- Raksha -->
+    <rect x="0" y="0" width="160" height="70" rx="10" fill="#1e1e2e" stroke="#06b6d4" stroke-width="1.5" opacity="0.9"/>
+    <text x="80" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#22d3ee">Raksha Security</text>
+    <text x="80" y="48" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#94a3b8">SIEM + ML Detection</text>
+    <text x="80" y="62" text-anchor="middle" font-family="monospace" font-size="9" fill="#64748b">v1.3.1</text>
+  </g>
+  
+  <!-- Right decorative -->
+  <circle cx="850" cy="60" r="80" fill="#06b6d4" opacity="0.06"/>
+  
+  <!-- Sanskrit subtle -->
+  <text x="830" y="265" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#475569">नवल • संचल • रक्षा</text>
 </svg>
