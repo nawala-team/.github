@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280">
+  <defs>
+    <linearGradient id="techBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="900" height="280" fill="url(#techBg)" rx="16"/>
+  
+  <!-- Languages -->
+  <g transform="translate(50, 30)">
+    <text x="0" y="20" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#7c3aed">LANGUAGES</text>
+    <g transform="translate(0, 35)">
+      <rect x="0" y="0" width="70" height="30" rx="6" fill="#000" opacity="0.3"/>
+      <text x="35" y="20" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#fff">Rust</text>
+      <rect x="80" y="0" width="70" height="30" rx="6" fill="#ED8B00" opacity="0.3"/>
+      <text x="115" y="20" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#fff">Java</text>
+      <rect x="160" y="0" width="70" height="30" rx="6" fill="#3776AB" opacity="0.3"/>
+      <text x="195" y="20" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#fff">Python</text>
+      <rect x="240" y="0" width="90" height="30" rx="6" fill="#3178C6" opacity="0.3"/>
+      <text x="285" y="20" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#fff">TypeScript</text>
+      <rect x="340" y="0" width="70" height="30" rx="6" fill="#4EAA25" opacity="0.3"/>
+      <text x="375" y="20" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#fff">Bash</text>
+    </g>
+  </g>
+  
+  <!-- Frameworks -->
+  <g transform="translate(480, 30)">
+    <text x="0" y="20" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#00d4ff">FRAMEWORKS</text>
+    <g transform="translate(0, 35)">
+      <rect x="0" y="0" width="70" height="30" rx="6" fill="#6DB33F" opacity="0.3"/>
+      <text x="35" y="20" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#fff">Spring</text>
+      <rect x="80" y="0" width="70" height="30" rx="6" fill="#000" opacity="0.3"/>
+      <text x="115" y="20" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#fff">Next.js</text>
+      <rect x="160" y="0" width="70" height="30" rx="6" fill="#61DAFB" opacity="0.3"/>
+      <text x="195" y="20" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#fff">React</text>
+      <rect x="240" y="0" width="50" height="30" rx="6" fill="#41CD52" opacity="0.3"/>
+      <text x="265" y="20" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#fff">Qt</text>
+      <rect x="300" y="0" width="80" height="30" rx="6" fill="#06B6D4" opacity="0.3"/>
+      <text x="340" y="20" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#fff">Tailwind</text>
+    </g>
+  </g>
+  
+  <!-- Infrastructure -->
+  <g transform="translate(50, 120)">
+    <text x="0" y="20" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#FFB300">INFRASTRUCTURE</text>
+    <g transform="translate(0, 35)">
+      <rect x="0" y="0" width="70" height="30" rx="6" fill="#FCC624" opacity="0.3"/>
+      <text x="35" y="20" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#fff">Linux</text>
+      <rect x="80" y="0" width="70" height="30" rx="6" fill="#2496ED" opacity="0.3"/>
+      <text x="115" y="20" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#fff">Docker</text>
+      <rect x="160" y="0" width="90" height="30" rx="6" fill="#326CE5" opacity="0.3"/>
+      <text x="205" y="20" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#fff">Kubernetes</text>
+      <rect x="260" y="0" width="70" height="30" rx="6" fill="#009639" opacity="0.3"/>
+      <text x="295" y="20" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#fff">Nginx</text>
+      <rect x="340" y="0" width="90" height="30" rx="6" fill="#F38020" opacity="0.3"/>
+      <text x="385" y="20" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#fff">Cloudflare</text>
+    </g>
+  </g>
+  
+  <!-- Database -->
+  <g transform="translate(480, 120)">
+    <text x="0" y="20" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#10b981">DATABASE & MONITORING</text>
+    <g transform="translate(0, 35)">
+      <rect x="0" y="0" width="85" height="30" rx="6" fill="#4169E1" opacity="0.3"/>
+      <text x="42" y="20" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#fff">PostgreSQL</text>
+      <rect x="95" y="0" width="60" height="30" rx="6" fill="#DC382D" opacity="0.3"/>
+      <text x="125" y="20" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#fff">Redis</text>
+      <rect x="165" y="0" width="90" height="30" rx="6" fill="#005571" opacity="0.3"/>
+      <text x="210" y="20" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#fff">Elasticsearch</text>
+      <rect x="265" y="0" width="70" height="30" rx="6" fill="#F46800" opacity="0.3"/>
+      <text x="300" y="20" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#fff">Grafana</text>
+      <rect x="345" y="0" width="90" height="30" rx="6" fill="#E6522C" opacity="0.3"/>
+      <text x="390" y="20" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#fff">Prometheus</text>
+    </g>
+  </g>
+  
+  <!-- Bottom tagline -->
+  <text x="450" y="250" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">Modern stack for modern solutions</text>
+</svg>

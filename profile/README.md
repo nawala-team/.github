@@ -49,11 +49,7 @@
 
 <div align="center">
 
-| | |
-|:---:|:---:|
-| <a href="https://github.com/dansiapa"><img src="https://github.com/dansiapa.png" width="100"/></a> | <a href="https://github.com/LeoTarung"><img src="https://github.com/LeoTarung.png" width="100"/></a> |
-| **Rangga Putra** | **Leo Tarung** |
-| @dansiapa • Founder | @LeoTarung • Core Member |
+<img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/team-card.svg" width="100%"/>
 
 </div>
 
@@ -65,17 +61,7 @@
 
 <div align="center">
 
-**Languages**<br/>
-<img src="https://skillicons.dev/icons?i=rust,java,python,typescript,bash&theme=dark" />
-
-**Frameworks**<br/>
-<img src="https://skillicons.dev/icons?i=spring,nextjs,react,qt,tailwind&theme=dark" />
-
-**Infrastructure**<br/>
-<img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,nginx,cloudflare&theme=dark" />
-
-**Database**<br/>
-<img src="https://skillicons.dev/icons?i=postgres,redis,elasticsearch,grafana,prometheus&theme=dark" />
+<img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/techstack-card.svg" width="100%"/>
 
 </div>
 
