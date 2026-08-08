@@ -114,9 +114,9 @@
 
 ### 🤝 Want to Contribute?
 
-[![Join Us](https://img.shields.io/badge/🤝_Join_Us-00C853?style=for-the-badge)](https://github.com/nawala-team/nawala-gateway-platform/blob/master/CONTRIBUTING.md)
-[![Issues](https://img.shields.io/badge/🐛_Issues-FF5252?style=for-the-badge)](https://github.com/orgs/nawala-team/repositories)
-[![Discussions](https://img.shields.io/badge/💬_Discuss-7c3aed?style=for-the-badge)](https://github.com/nawala-team/nawala-gateway-platform/discussions)
+[![Join Us](https://img.shields.io/badge/🤝_Join_Us-00C853?style=for-the-badge)](mailto:dummymailrangga@gmail.com?subject=Tertarik%20Kontribusi%20ke%20NAWALA%20TEAM&body=Halo%2C%20saya%20tertarik%20dengan%20NAWALA%20TEAM%20terlebih%20ke%20...%0A%0ABisa%20tidak%20saya%20kontribusi%20kesitu%3F)
+[![Issues](https://img.shields.io/badge/🐛_Issues-FF5252?style=for-the-badge)](mailto:dummymailrangga@gmail.com?subject=Bug%20Report%20-%20NAWALA%20TEAM&body=Project%3A%20%0ABug%3A%20%0ASteps%20to%20reproduce%3A%20)
+[![Discussions](https://img.shields.io/badge/💬_Discuss-7c3aed?style=for-the-badge)](mailto:dummymailrangga@gmail.com?subject=Diskusi%20-%20NAWALA%20TEAM&body=Halo%2C%20saya%20ingin%20berdiskusi%20tentang%20...)
 
 </div>
 
