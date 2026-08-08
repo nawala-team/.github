@@ -114,9 +114,9 @@
 
 ### 🤝 Want to Contribute?
 
-[![Join Us](https://img.shields.io/badge/🤝_Join_Us-00C853?style=for-the-badge)](https://github.com/nawala-team)
-[![Issues](https://img.shields.io/badge/🐛_Issues-FF5252?style=for-the-badge)](https://github.com/nawala-team/sanchala-os/issues)
-[![Discussions](https://img.shields.io/badge/💬_Discuss-7c3aed?style=for-the-badge)](https://github.com/orgs/nawala-team/discussions)
+[![Join Us](https://img.shields.io/badge/🤝_Join_Us-00C853?style=for-the-badge)](https://github.com/nawala-team/nawala-gateway-platform/blob/master/CONTRIBUTING.md)
+[![Issues](https://img.shields.io/badge/🐛_Issues-FF5252?style=for-the-badge)](https://github.com/orgs/nawala-team/repositories)
+[![Discussions](https://img.shields.io/badge/💬_Discuss-7c3aed?style=for-the-badge)](https://github.com/nawala-team/nawala-gateway-platform/discussions)
 
 </div>
 
