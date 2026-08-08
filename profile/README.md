@@ -20,7 +20,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=700&size=28&duration=3000&pause=2000&color=7C3AED&center=true&vCenter=true&width=600&lines=NAWALA+(नवल);Sanskrit+for+%22New%22+or+%22Novel%22" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=2000&color=7C3AED&center=true&vCenter=true&width=600&lines=NAWALA;Sanskrit+for+New+or+Novel" />
 
 <br/>
 
