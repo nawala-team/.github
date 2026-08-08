@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a3e"/>
+      <stop offset="50%" style="stop-color:#2d2d5a"/>
+      <stop offset="100%" style="stop-color:#1a1a3e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7c3aed"/>
+      <stop offset="50%" style="stop-color:#00d4ff"/>
+      <stop offset="100%" style="stop-color:#FFB300"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bg)" rx="16" filter="url(#shadow)"/>
+  <rect width="1198" height="298" x="1" y="1" fill="none" stroke="url(#accent)" stroke-width="2" rx="15" opacity="0.5"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="100" cy="50" r="80" fill="#7c3aed" opacity="0.1"/>
+  <circle cx="1100" cy="250" r="100" fill="#00d4ff" opacity="0.1"/>
+  <circle cx="600" cy="280" r="60" fill="#FFB300" opacity="0.1"/>
+  
+  <!-- Grid pattern -->
+  <line x1="0" y1="100" x2="1200" y2="100" stroke="#fff" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="0" y1="200" x2="1200" y2="200" stroke="#fff" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="400" y1="0" x2="400" y2="300" stroke="#fff" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="800" y1="0" x2="800" y2="300" stroke="#fff" stroke-opacity="0.03" stroke-width="1"/>
+  
+  <!-- Logo hexagon -->
+  <g transform="translate(150, 150)">
+    <polygon points="0,-60 52,-30 52,30 0,60 -52,30 -52,-30" fill="url(#accent)" opacity="0.2"/>
+    <polygon points="0,-50 43,-25 43,25 0,50 -43,25 -43,-25" fill="#1a1a3e"/>
+    <text x="0" y="15" text-anchor="middle" font-size="50" fill="#fff">न</text>
+  </g>
+  
+  <!-- Main title -->
+  <text x="280" y="120" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#fff" filter="url(#glow)">NAWALA</text>
+  <text x="280" y="160" font-family="Arial, sans-serif" font-size="24" fill="url(#accent)" letter-spacing="8">TEAM</text>
+  
+  <!-- Tagline -->
+  <text x="280" y="210" font-family="Arial, sans-serif" font-size="18" fill="#a0a0c0">Modern Security &amp; Infrastructure Tools</text>
+  
+  <!-- Project badges -->
+  <g transform="translate(280, 240)">
+    <rect x="0" y="0" width="100" height="28" rx="14" fill="#FFB300" opacity="0.2"/>
+    <text x="50" y="19" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#FFB300" font-weight="bold">Sanchala</text>
+    
+    <rect x="115" y="0" width="90" height="28" rx="14" fill="#7c3aed" opacity="0.2"/>
+    <text x="160" y="19" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7c3aed" font-weight="bold">Nawala</text>
+    
+    <rect x="220" y="0" width="85" height="28" rx="14" fill="#00d4ff" opacity="0.2"/>
+    <text x="262" y="19" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#00d4ff" font-weight="bold">Raksha</text>
+  </g>
+  
+  <!-- Right side icons -->
+  <g transform="translate(900, 100)">
+    <circle cx="0" cy="0" r="35" fill="#FFB300" opacity="0.15"/>
+    <text x="0" y="12" text-anchor="middle" font-size="30">💻</text>
+  </g>
+  <g transform="translate(1000, 150)">
+    <circle cx="0" cy="0" r="35" fill="#7c3aed" opacity="0.15"/>
+    <text x="0" y="12" text-anchor="middle" font-size="30">🔐</text>
+  </g>
+  <g transform="translate(1080" y="100)">
+    <circle cx="0" cy="0" r="35" fill="#00d4ff" opacity="0.15"/>
+    <text x="0" y="12" text-anchor="middle" font-size="30">🛡️</text>
+  </g>
+  
+  <!-- Sanskrit text -->
+  <text x="1050" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#666">नवल • संचल • रक्षा</text>
+</svg>

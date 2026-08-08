@@ -1,122 +1,96 @@
 <div align="center">
 
-<!-- Banner with solid background for light mode contrast -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a3e,100:7c3aed&height=200&section=header&text=NAWALA&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Sanskrit-inspired%20Modern%20Infrastructure&descAlignY=55&descSize=20"/>
+<img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/nawala-banner.svg" width="100%" alt="NAWALA TEAM"/>
 
 <br/>
 
-### 「 नवल • संचल • रक्षा 」
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=4000&pause=500&color=7C3AED&center=true&vCenter=true&width=600&height=30&lines=%F0%9F%94%92+Security+First+%E2%80%A2+%E2%9A%A1+Performance+%E2%80%A2+%F0%9F%8E%A8+Beautiful+Design" alt="Tagline"/>
-
-<br/>
-
-<img src="https://img.shields.io/badge/Projects-3-FFB300?style=for-the-badge&logo=github&logoColor=white"/>
-<img src="https://img.shields.io/badge/Status-Active-00C853?style=for-the-badge&logo=statuspage&logoColor=white"/>
-<img src="https://img.shields.io/badge/License-GPL%2FMIT-7c3aed?style=for-the-badge&logo=opensource&logoColor=white"/>
-
-<br/><br/>
-
-<a href="https://github.com/nawala-team">
-  <img src="https://img.shields.io/badge/GitHub-nawala--team-181717?style=for-the-badge&logo=github"/>
-</a>
-<a href="https://github.com/dansiapa">
-  <img src="https://img.shields.io/badge/Founder-@dansiapa-7c3aed?style=for-the-badge&logo=github"/>
-</a>
+[![Projects](https://img.shields.io/badge/Projects-3-7c3aed?style=for-the-badge&logo=github&logoColor=white)](#-projects)
+[![Status](https://img.shields.io/badge/Status-Active-00C853?style=for-the-badge)](#)
+[![Location](https://img.shields.io/badge/Indonesia-🇮🇩-FF0000?style=for-the-badge)](#)
 
 </div>
 
 ---
 
-## 🔮 About Us
-
 <div align="center">
 
-### 「 नवल 」 NAWALA — *Sanskrit for "New" or "Novel"*
+## 🎯 Who We Are
 
-> *We build modern, secure, and elegant infrastructure solutions inspired by ancient wisdom.*
+**NAWALA** (नवल) — Sanskrit for *"New"* or *"Novel"*
+
+We create **modern security & infrastructure tools** with beautiful design.
 
 </div>
 
-<table align="center">
+---
+
+## 📦 Projects
+
+<table>
 <tr>
-<td align="center" width="25%">🔒<br/><b>Security First</b><br/><sub>Military-grade encryption</sub></td>
-<td align="center" width="25%">⚡<br/><b>Performance</b><br/><sub>Maximum speed</sub></td>
-<td align="center" width="25%">🎨<br/><b>Beautiful Design</b><br/><sub>Modern UX</sub></td>
-<td align="center" width="25%">🌐<br/><b>Open Source</b><br/><sub>Community driven</sub></td>
+<td width="33%" align="center">
+<a href="https://github.com/nawala-team/sanchala-os">
+<img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/sanchala-card.svg" width="100%"/>
+</a>
+<br/><br/>
+<b>💻 Sanchala OS</b><br/>
+<code>v1.0 Astra</code><br/>
+<sub>Secure Linux + macOS UI</sub>
+</td>
+<td width="33%" align="center">
+<a href="https://github.com/nawala-team/nawala-gateway-platform">
+<img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/nawala-card.svg" width="100%"/>
+</a>
+<br/><br/>
+<b>🔐 Nawala Gateway</b><br/>
+<code>v2.0.1</code><br/>
+<sub>Enterprise API Gateway</sub>
+</td>
+<td width="33%" align="center">
+<a href="https://github.com/nawala-team/raksha-security-platform">
+<img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/raksha-card.svg" width="100%"/>
+</a>
+<br/><br/>
+<b>🛡️ Raksha Security</b><br/>
+<code>v1.3.1</code><br/>
+<sub>SIEM + ML Detection</sub>
+</td>
 </tr>
 </table>
 
 ---
 
-## 🚀 Our Projects
+## 🛠️ Stack
 
 <div align="center">
 
-<a href="https://github.com/nawala-team/sanchala-os">
-  <img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/sanchala-card.svg" alt="Sanchala OS" width="380"/>
-</a>
-
-<a href="https://github.com/nawala-team/nawala-gateway-platform">
-  <img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/nawala-card.svg" alt="Nawala Gateway" width="380"/>
-</a>
-
-<a href="https://github.com/nawala-team/raksha-security-platform">
-  <img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/raksha-card.svg" alt="Raksha Security" width="380"/>
-</a>
-
-</div>
-
-<br/>
-
-| Project | Version | Description |
-|---------|---------|-------------|
-| 💻 **Sanchala OS** | v1.0 Astra | Beautiful & secure Linux with macOS UI, KDE Plasma 6 |
-| 🔐 **Nawala Gateway** | v2.0.1 | Enterprise API Gateway with WAF, OAuth2, AI Detection |
-| 🛡️ **Raksha Security** | v1.3.1 | SIEM platform with ML threat detection, compliance |
-
----
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000?style=flat-square&logo=rust)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-
-**Frameworks & Infrastructure**
-
 ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/K8s-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![K8s](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Arch](https://img.shields.io/badge/Arch-1793D1?style=flat-square&logo=archlinux&logoColor=white)
 
 </div>
 
 ---
 
-## 👥 Team
+## 👤 Team
 
 <div align="center">
 
 <a href="https://github.com/dansiapa">
-  <img src="https://github.com/dansiapa.png" width="100" style="border-radius:50%"/>
-  <br/><b>Rangga Putra</b><br/><sub>Founder</sub>
+<img src="https://github.com/dansiapa.png" width="80" style="border-radius:50%"/>
+<br/>
+<b>@dansiapa</b><br/>
+<sub>Founder</sub>
 </a>
-
-<br/><br/>
-
-### 🤝 Want to Contribute?
-
-[![Join Us](https://img.shields.io/badge/🤝_Join_Us-00C853?style=for-the-badge)](mailto:dummymailrangga@gmail.com?subject=Tertarik%20Kontribusi%20ke%20NAWALA%20TEAM&body=Halo%2C%20saya%20tertarik%20dengan%20NAWALA%20TEAM%20terlebih%20ke%20...%0A%0ABisa%20tidak%20saya%20kontribusi%20kesitu%3F)
-[![Issues](https://img.shields.io/badge/🐛_Issues-FF5252?style=for-the-badge)](mailto:dummymailrangga@gmail.com?subject=Bug%20Report%20-%20NAWALA%20TEAM&body=Project%3A%20%0ABug%3A%20%0ASteps%20to%20reproduce%3A%20)
-[![Discussions](https://img.shields.io/badge/💬_Discuss-7c3aed?style=for-the-badge)](mailto:dummymailrangga@gmail.com?subject=Diskusi%20-%20NAWALA%20TEAM&body=Halo%2C%20saya%20ingin%20berdiskusi%20tentang%20...)
 
 </div>
 
@@ -124,10 +98,14 @@
 
 <div align="center">
 
-**⭐ Star our repositories if you find them useful!**
+### 📬 Get in Touch
 
-<sub>Made with ❤️ by NAWALA TEAM in Indonesia 🇮🇩</sub>
+[![Join](https://img.shields.io/badge/🤝_Join_Team-7c3aed?style=for-the-badge)](mailto:dummymailrangga@gmail.com?subject=Tertarik%20Kontribusi%20ke%20NAWALA%20TEAM&body=Halo%2C%20saya%20tertarik%20dengan%20NAWALA%20TEAM%20terlebih%20ke%20...%0A%0ABisa%20tidak%20saya%20kontribusi%20kesitu%3F)
+[![Report](https://img.shields.io/badge/🐛_Report_Bug-FF5252?style=for-the-badge)](mailto:dummymailrangga@gmail.com?subject=Bug%20Report%20-%20NAWALA&body=Project%3A%20%0ABug%3A%20)
+[![Chat](https://img.shields.io/badge/💬_Let's_Chat-00C853?style=for-the-badge)](mailto:dummymailrangga@gmail.com?subject=Hello%20NAWALA&body=Hi!)
 
-<sub>© 2026 nawala-team</sub>
+<br/>
+
+⭐ **Star our repos if you find them useful!**
 
 </div>
