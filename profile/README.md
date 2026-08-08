@@ -8,37 +8,21 @@
 
 <br/><br/>
 
-<a href="#">
-  <img src="https://img.shields.io/badge/Status-Active-00C853?style=for-the-badge&logo=statuspage&logoColor=white"/>
-</a>
-<a href="#-projects">
-  <img src="https://img.shields.io/badge/Projects-3-7c3aed?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-<a href="#">
-  <img src="https://img.shields.io/badge/Open_Source-MIT%2FGPL-00d4ff?style=for-the-badge&logo=opensource&logoColor=white"/>
-</a>
+[![Status](https://img.shields.io/badge/Status-Active-00C853?style=for-the-badge&logo=statuspage&logoColor=white)](#)
+[![Projects](https://img.shields.io/badge/Projects-3-7c3aed?style=for-the-badge&logo=github&logoColor=white)](#projects)
+[![Open Source](https://img.shields.io/badge/Open_Source-MIT%2FGPL-00d4ff?style=for-the-badge&logo=opensource&logoColor=white)](#)
 
 </div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 <br/>
 
-<div align="center">
-<table>
-<tr>
-<td>
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"/> &nbsp;About Us
-
-</td>
-</tr>
-</table>
-</div>
+## About Us
 
 <div align="center">
 
-### **NAWALA** (नवल) — *Sanskrit for "New"*
+**NAWALA** (नवल) — *Sanskrit for "New"*
 
 We build modern, secure, and elegant infrastructure solutions inspired by ancient wisdom.
 
@@ -46,97 +30,56 @@ We build modern, secure, and elegant infrastructure solutions inspired by ancien
 
 <br/>
 
-<div align="center">
-<table>
+<table align="center">
 <tr>
-<td align="center"><b>Security First</b><br/><sub>Military-grade encryption</sub></td>
-<td align="center"><b>Performance</b><br/><sub>Blazing fast</sub></td>
-<td align="center"><b>Beautiful</b><br/><sub>Modern UI/UX</sub></td>
-<td align="center"><b>Open Source</b><br/><sub>Community driven</sub></td>
+<td align="center" width="25%"><b>Security First</b><br/><sub>Military-grade encryption</sub></td>
+<td align="center" width="25%"><b>Performance</b><br/><sub>Blazing fast</sub></td>
+<td align="center" width="25%"><b>Beautiful</b><br/><sub>Modern UI/UX</sub></td>
+<td align="center" width="25%"><b>Open Source</b><br/><sub>Community driven</sub></td>
 </tr>
 </table>
-</div>
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
-<br/>
-
-<div align="center">
-<table>
-<tr>
-<td>
-
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="35"/> &nbsp;Our Projects
-
-</td>
-</tr>
-</table>
-</div>
-
-<br/>
+## Projects
 
 <div align="center">
 
 | | | |
 |:---:|:---:|:---:|
 | <a href="https://github.com/nawala-team/sanchala-os"><img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/sanchala-card.svg" width="280"/></a> | <a href="https://github.com/nawala-team/nawala-gateway-platform"><img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/nawala-card.svg" width="280"/></a> | <a href="https://github.com/nawala-team/raksha-security-platform"><img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/raksha-card.svg" width="280"/></a> |
-| <img src="https://img.shields.io/badge/💻_Sanchala_OS-FFB300?style=for-the-badge"/> | <img src="https://img.shields.io/badge/🔐_Nawala_Gateway-7c3aed?style=for-the-badge"/> | <img src="https://img.shields.io/badge/🛡️_Raksha_Security-00d4ff?style=for-the-badge"/> |
+| **Sanchala OS** | **Nawala Gateway** | **Raksha Security** |
 | `v1.0 Astra` | `v2.0.1` | `v1.3.1` |
 | Secure Linux + macOS UI | Enterprise API Gateway | SIEM + ML Detection |
-| KDE Plasma 6 • 8-Layer Security | WAF • OAuth2 • AI | Compliance • Dark Web |
 
 </div>
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
-<br/>
-
-<div align="center">
-<table>
-<tr>
-<td>
-
-## <img src="https://media.giphy.com/media/Wn74RUT0vjnoU98Hnt/giphy.gif" width="35"/> &nbsp;Meet The Team
-
-</td>
-</tr>
-</table>
-</div>
-
-<br/>
+## Team
 
 <div align="center">
 
 <table>
 <tr>
-<td align="center">
+<td align="center" width="50%">
 <a href="https://github.com/dansiapa">
-<img src="https://github.com/dansiapa.png" width="150" style="border-radius:50%; border: 3px solid #7c3aed;"/>
+<img src="https://github.com/dansiapa.png" width="120"/>
 <br/><br/>
-<img src="https://img.shields.io/badge/👑_FOUNDER-7c3aed?style=for-the-badge"/>
-<br/><br/>
-<b>Rangga Putra</b>
-<br/>
-<img src="https://img.shields.io/badge/@dansiapa-181717?style=flat-square&logo=github"/>
-<br/><br/>
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=12&duration=2000&pause=1000&color=7C3AED&center=true&vCenter=true&width=150&lines=Visionary;Architect;Leader" />
+<b>Rangga Putra</b><br/>
+<sub>@dansiapa • Founder</sub>
 </a>
 </td>
-<td align="center">
+<td align="center" width="50%">
 <a href="https://github.com/LeoTarung">
-<img src="https://github.com/LeoTarung.png" width="150" style="border-radius:50%; border: 3px solid #00d4ff;"/>
+<img src="https://github.com/LeoTarung.png" width="120"/>
 <br/><br/>
-<img src="https://img.shields.io/badge/🛠️_CORE_MEMBER-00d4ff?style=for-the-badge"/>
-<br/><br/>
-<b>Leo Tarung</b>
-<br/>
-<img src="https://img.shields.io/badge/@LeoTarung-181717?style=flat-square&logo=github"/>
-<br/><br/>
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=12&duration=2000&pause=1000&color=00D4FF&center=true&vCenter=true&width=150&lines=Developer;Builder;Contributor" />
+<b>Leo Tarung</b><br/>
+<sub>@LeoTarung • Core Member</sub>
 </a>
 </td>
 </tr>
@@ -146,87 +89,52 @@ We build modern, secure, and elegant infrastructure solutions inspired by ancien
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
-<br/>
-
-<div align="center">
-<table>
-<tr>
-<td>
-
-## <img src="https://media.giphy.com/media/ZCN6F3FAkwsyOGU2RS/giphy.gif" width="35"/> &nbsp;Tech Stack
-
-</td>
-</tr>
-</table>
-</div>
-
-<br/>
+## Tech Stack
 
 <div align="center">
 
-### 💻 Languages
+**Languages**
+
 <img src="https://skillicons.dev/icons?i=rust,java,python,typescript,bash&theme=dark" />
 
-<br/>
+**Frameworks & Tools**
 
-### 🛠️ Frameworks & Tools
 <img src="https://skillicons.dev/icons?i=spring,nextjs,react,qt,tailwind&theme=dark" />
 
-<br/>
+**Infrastructure**
 
-### ☁️ Infrastructure
 <img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,nginx,cloudflare&theme=dark" />
 
-<br/>
+**Database & Monitoring**
 
-### 🗄️ Database & Monitoring
 <img src="https://skillicons.dev/icons?i=postgres,redis,elasticsearch,grafana,prometheus&theme=dark" />
 
 </div>
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
+
+## Contact
+
+<div align="center">
+
+**Email:** dummymailrangga@gmail.com
 
 <br/>
 
-<div align="center">
-<table>
-<tr>
-<td>
+[![Join Team](https://img.shields.io/badge/Join_Team-7c3aed?style=for-the-badge)](mailto:dummymailrangga@gmail.com?subject=Join%20NAWALA%20TEAM&body=Hi!%20Saya%20tertarik%20untuk%20kontribusi%20ke%20project...)
+[![Report Bug](https://img.shields.io/badge/Report_Bug-FF5252?style=for-the-badge)](mailto:dummymailrangga@gmail.com?subject=Bug%20Report&body=Project:%20%0ABug:%20)
+[![Say Hello](https://img.shields.io/badge/Say_Hello-00C853?style=for-the-badge)](mailto:dummymailrangga@gmail.com?subject=Hello%20NAWALA!)
 
-## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="35"/> &nbsp;Get In Touch
+<br/>
 
-</td>
-</tr>
-</table>
+**Star our repos if you find them useful!**
+
 </div>
 
 <br/>
 
-<div align="center">
-
-```
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃   📧 dummymailrangga@gmail.com        ┃
-┃   🌐 github.com/nawala-team           ┃
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-```
-
-<br/>
-
-[![Join Team](https://img.shields.io/badge/🤝_Join_Team-7c3aed?style=for-the-badge)](mailto:dummymailrangga@gmail.com?subject=Join%20NAWALA%20TEAM&body=Hi!%20Saya%20tertarik%20untuk%20kontribusi%20ke%20project...)
-[![Report Bug](https://img.shields.io/badge/🐛_Report_Bug-FF5252?style=for-the-badge)](mailto:dummymailrangga@gmail.com?subject=Bug%20Report&body=Project:%20%0ABug:%20)
-[![Say Hello](https://img.shields.io/badge/💬_Say_Hello-00C853?style=for-the-badge)](mailto:dummymailrangga@gmail.com?subject=Hello%20NAWALA!)
-
-<br/><br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=4000&pause=1000&color=FFB300&center=true&vCenter=true&width=500&lines=%E2%AD%90+Star+our+repos+if+you+find+them+useful!;%F0%9F%92%9C+We+appreciate+your+support!;%F0%9F%9A%80+Let's+build+the+future+together!" />
-
-<br/>
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
