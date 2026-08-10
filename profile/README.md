@@ -9,7 +9,7 @@
 <br/><br/>
 
 [![Status](https://img.shields.io/badge/Status-Active-00C853?style=for-the-badge&logo=statuspage&logoColor=white)](#)
-[![Projects](https://img.shields.io/badge/Projects-3-7c3aed?style=for-the-badge&logo=github&logoColor=white)](#projects)
+[![Projects](https://img.shields.io/badge/Projects-5-7c3aed?style=for-the-badge&logo=github&logoColor=white)](#projects)
 [![Open Source](https://img.shields.io/badge/Open_Source-MIT%2FGPL-00d4ff?style=for-the-badge&logo=opensource&logoColor=white)](#)
 
 </div>
@@ -38,6 +38,13 @@
 | **Sanchala OS** | **Nawala Gateway** | **Raksha Security** |
 | `v1.0 Astra` | `v2.0.1` | `v1.3.1` |
 | Secure Linux + macOS UI | Enterprise API Gateway | SIEM + ML Detection |
+
+| | |
+|:---:|:---:|
+| <a href="https://github.com/nawala-team/suraksha-vault"><img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/suraksha-card.svg" width="280"/></a> | <a href="https://github.com/nawala-team/rachana-code"><img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/rachana-card.svg" width="280"/></a> |
+| **Suraksha Vault** | **Rachana Code** |
+| `v1.0.0` | `Coming Soon` |
+| Password Manager + Quick Paste | Code Editor |
 
 </div>
 
@@ -98,6 +105,7 @@
 ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Electron](https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white)
 ![Qt](https://img.shields.io/badge/Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
