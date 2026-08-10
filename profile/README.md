@@ -32,19 +32,39 @@
 
 <div align="center">
 
-| | | |
-|:---:|:---:|:---:|
-| <a href="https://github.com/nawala-team/sanchala-os"><img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/sanchala-card.svg" width="280"/></a> | <a href="https://github.com/nawala-team/nawala-gateway-platform"><img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/nawala-card.svg" width="280"/></a> | <a href="https://github.com/nawala-team/raksha-security-platform"><img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/raksha-card.svg" width="280"/></a> |
-| **Sanchala OS** | **Nawala Gateway** | **Raksha Security** |
-| `v1.0 Astra` | `v2.0.1` | `v1.3.1` |
-| Secure Linux + macOS UI | Enterprise API Gateway | SIEM + ML Detection |
-
-| | |
-|:---:|:---:|
-| <a href="https://github.com/nawala-team/suraksha-vault"><img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/suraksha-card.svg" width="280"/></a> | <a href="https://github.com/nawala-team/rachana-code"><img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/rachana-card.svg" width="280"/></a> |
-| **Suraksha Vault** | **Rachana Code** |
-| `v1.0.0` | `Coming Soon` |
-| Password Manager + Quick Paste | Code Editor |
+<table>
+<tr>
+<td align="center">
+<a href="https://github.com/nawala-team/sanchala-os">
+<img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/sanchala-card.svg" width="380"/>
+</a>
+</td>
+<td align="center">
+<a href="https://github.com/nawala-team/raksha-security-platform">
+<img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/raksha-card.svg" width="380"/>
+</a>
+</td>
+</tr>
+<tr>
+<td align="center">
+<a href="https://github.com/nawala-team/nawala-gateway-platform">
+<img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/nawala-card.svg" width="380"/>
+</a>
+</td>
+<td align="center">
+<a href="https://github.com/nawala-team/suraksha-vault">
+<img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/suraksha-card.svg" width="380"/>
+</a>
+</td>
+</tr>
+<tr>
+<td align="center" colspan="2">
+<a href="https://github.com/nawala-team/rachana-code">
+<img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/rachana-card.svg" width="380"/>
+</a>
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -111,17 +131,16 @@
 
 **Infrastructure**<br/>
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/K8s-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 
 **Database**<br/>
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Elasticsearch](https://img.shields.io/badge/Elastic-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 
 </div>
 
