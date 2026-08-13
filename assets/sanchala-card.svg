@@ -25,7 +25,7 @@
     <rect x="28" y="28" width="14" height="14" rx="2" fill="#FFB300" opacity="0.3"/>
   </g>
   <text x="140" y="75" fill="#ffffff" font-family="Arial, sans-serif" font-size="26" font-weight="bold">Sanchala OS</text>
-  <text x="140" y="100" fill="#FFB300" font-family="Arial, sans-serif" font-size="12" font-weight="600">v1.0 ASTRA</text>
+  <text x="140" y="100" fill="#FFB300" font-family="Arial, sans-serif" font-size="12" font-weight="600">v2.0 VAJRA</text>
   <text x="140" y="125" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="12">Beautiful and Secure Linux Distribution</text>
   <rect x="140" y="145" width="50" height="22" rx="4" fill="#1793D1" opacity="0.2"/>
   <text x="165" y="160" text-anchor="middle" fill="#1793D1" font-family="Arial, sans-serif" font-size="10" font-weight="600">ARCH</text>
