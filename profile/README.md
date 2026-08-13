@@ -9,7 +9,7 @@
 <br/><br/>
 
 [![Status](https://img.shields.io/badge/Status-Active-00C853?style=for-the-badge&logo=statuspage&logoColor=white)](#)
-[![Projects](https://img.shields.io/badge/Projects-5-7c3aed?style=for-the-badge&logo=github&logoColor=white)](#projects)
+[![Projects](https://img.shields.io/badge/Projects-6-7c3aed?style=for-the-badge&logo=github&logoColor=white)](#projects)
 [![Open Source](https://img.shields.io/badge/Open_Source-MIT%2FGPL-00d4ff?style=for-the-badge&logo=opensource&logoColor=white)](#)
 
 </div>
@@ -38,11 +38,13 @@
 <a href="https://github.com/nawala-team/sanchala-os">
 <img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/sanchala-card.svg" width="380"/>
 </a>
+<br/><sub><b>Sanchala OS</b> - A beautiful, secure Linux distribution</sub>
 </td>
 <td align="center">
 <a href="https://github.com/nawala-team/raksha-security-platform">
 <img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/raksha-card.svg" width="380"/>
 </a>
+<br/><sub><b>Raksha</b> - Enterprise security platform for threat detection</sub>
 </td>
 </tr>
 <tr>
@@ -50,18 +52,27 @@
 <a href="https://github.com/nawala-team/nawala-gateway-platform">
 <img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/nawala-card.svg" width="380"/>
 </a>
+<br/><sub><b>Nawala Gateway</b> - API gateway and traffic management</sub>
 </td>
 <td align="center">
 <a href="https://github.com/nawala-team/suraksha-vault">
 <img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/suraksha-card.svg" width="380"/>
 </a>
+<br/><sub><b>Suraksha Vault</b> - Secure secrets and credentials management</sub>
 </td>
 </tr>
 <tr>
-<td align="center" colspan="2">
+<td align="center">
 <a href="https://github.com/nawala-team/rachana-code">
 <img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/rachana-card.svg" width="380"/>
 </a>
+<br/><sub><b>Rachana Code</b> - Modern code editor built for developers</sub>
+</td>
+<td align="center">
+<a href="https://github.com/nawala-team/prahara-observability-platform">
+<img src="https://img.shields.io/badge/Prahara-Observability-F46800?style=for-the-badge&logo=grafana&logoColor=white" height="80"/>
+</a>
+<br/><sub><b>Prahara</b> - Observability platform for monitoring & tracing</sub>
 </td>
 </tr>
 </table>
@@ -152,7 +163,10 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/contact-card.svg" width="100%"/>
+[![Email](https://img.shields.io/badge/Email-Nawala_Team-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dummymailrangga@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-nawala--team-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nawala-team)
+
+📧 **Nawala Team** - dummymailrangga@gmail.com
 
 </div>
 
