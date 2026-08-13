@@ -1,58 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
   <defs>
-    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1a1a3e"/>
-      <stop offset="100%" style="stop-color:#2d2d5a"/>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f23"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
     </linearGradient>
     <linearGradient id="purple" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#7c3aed"/>
-      <stop offset="100%" style="stop-color:#5b21b6"/>
+      <stop offset="0%" style="stop-color:#7C3AED"/>
+      <stop offset="100%" style="stop-color:#4F46E5"/>
     </linearGradient>
-    <filter id="glow2">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="shadow">
-      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.3"/>
-    </filter>
+    <filter id="glow3"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="shadow3"><feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.5"/></filter>
   </defs>
-  
-  <!-- Background with border for light mode -->
-  <rect width="400" height="200" fill="url(#bg2)" rx="16" filter="url(#shadow)"/>
-  <rect width="398" height="198" x="1" y="1" fill="none" stroke="url(#purple)" stroke-width="2" rx="15">
-    <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
-  </rect>
-  
-  <!-- Floating particles -->
-  <circle cx="60" cy="40" r="2" fill="#7c3aed" opacity="0.6">
-    <animate attributeName="cy" values="40;160;40" dur="5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="340" cy="160" r="1.5" fill="#7c3aed" opacity="0.4">
-    <animate attributeName="cy" values="160;40;160" dur="4s" repeatCount="indefinite"/>
-  </circle>
-  
-  <!-- Icon -->
-  <circle cx="70" cy="100" r="40" fill="url(#purple)" opacity="0.2"/>
-  <text x="70" y="115" text-anchor="middle" font-size="45" filter="url(#glow2)">🔐</text>
-  
-  <!-- Title -->
-  <text x="230" y="60" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="26" font-weight="bold" filter="url(#glow2)">Nawala Gateway</text>
-  
-  <!-- Version badge -->
-  <rect x="155" y="72" width="150" height="24" rx="12" fill="#7c3aed" opacity="0.3"/>
-  <text x="230" y="89" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Enterprise API Gateway</text>
-  
-  <!-- Description -->
-  <text x="230" y="120" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="13">Secure API Gateway Platform</text>
-  <text x="230" y="140" text-anchor="middle" fill="#c4b5fd" font-family="Arial, sans-serif" font-size="11">WAF • OAuth2 • Rate Limiting • AI Detection</text>
-  
-  <!-- Tech badges -->
-  <rect x="120" y="155" width="45" height="20" rx="10" fill="#ED8B00" opacity="0.4"/>
-  <text x="142" y="169" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Java</text>
-  <rect x="175" y="155" width="50" height="20" rx="10" fill="#6DB33F" opacity="0.4"/>
-  <text x="200" y="169" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Spring</text>
-  <rect x="235" y="155" width="45" height="20" rx="10" fill="#DC382D" opacity="0.4"/>
-  <text x="257" y="169" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Redis</text>
-  <rect x="290" y="155" width="45" height="20" rx="10" fill="#7c3aed" opacity="0.4"/>
-  <text x="312" y="169" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="10" font-weight="bold">v2.0.1</text>
+  <rect width="400" height="200" fill="url(#bg3)" rx="16" filter="url(#shadow3)"/>
+  <rect width="398" height="198" x="1" y="1" fill="none" stroke="url(#purple)" stroke-width="1.5" rx="15" opacity="0.8"/>
+  <circle cx="50" cy="40" r="80" fill="#7C3AED" opacity="0.03"/>
+  <circle cx="380" cy="180" r="60" fill="#4F46E5" opacity="0.05"/>
+  <g transform="translate(55,75)">
+    <rect x="5" y="5" width="40" height="40" rx="6" fill="none" stroke="url(#purple)" stroke-width="2" filter="url(#glow3)"/>
+    <path d="M15,20 L25,15 L35,20 L35,35 L25,40 L15,35 Z" fill="#7C3AED" opacity="0.5"/>
+    <circle cx="25" cy="27" r="5" fill="#7C3AED"/>
+  </g>
+  <text x="140" y="75" fill="#ffffff" font-family="Arial, sans-serif" font-size="26" font-weight="bold">Nawala Gateway</text>
+  <text x="140" y="100" fill="#7C3AED" font-family="Arial, sans-serif" font-size="12" font-weight="600">API GATEWAY</text>
+  <text x="140" y="125" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="12">Traffic Management and Load Balancing</text>
+  <rect x="140" y="145" width="45" height="22" rx="4" fill="#f74c00" opacity="0.2"/>
+  <text x="162" y="160" text-anchor="middle" fill="#f74c00" font-family="Arial, sans-serif" font-size="10" font-weight="600">RUST</text>
+  <rect x="193" y="145" width="40" height="22" rx="4" fill="#326CE5" opacity="0.2"/>
+  <text x="213" y="160" text-anchor="middle" fill="#326CE5" font-family="Arial, sans-serif" font-size="10" font-weight="600">K8S</text>
+  <rect x="241" y="145" width="55" height="22" rx="4" fill="#7C3AED" opacity="0.2"/>
+  <text x="268" y="160" text-anchor="middle" fill="#7C3AED" font-family="Arial, sans-serif" font-size="10" font-weight="600">PUBLIC</text>
 </svg>
