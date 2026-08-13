@@ -9,7 +9,7 @@
 <br/><br/>
 
 [![Status](https://img.shields.io/badge/Status-Active-00C853?style=for-the-badge&logo=statuspage&logoColor=white)](#)
-[![Projects](https://img.shields.io/badge/Projects-6-7c3aed?style=for-the-badge&logo=github&logoColor=white)](#projects)
+[![Projects](https://img.shields.io/badge/Projects-7-7c3aed?style=for-the-badge&logo=github&logoColor=white)](#projects)
 [![Open Source](https://img.shields.io/badge/Open_Source-MIT%2FGPL-00d4ff?style=for-the-badge&logo=opensource&logoColor=white)](#)
 
 </div>
@@ -70,12 +70,30 @@
 </td>
 <td align="center">
 <a href="https://github.com/nawala-team/prahara-observability-platform">
-<img src="https://img.shields.io/badge/Prahara-Observability-F46800?style=for-the-badge&logo=grafana&logoColor=white" height="80"/>
+<img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/prahara-card.svg" width="380"/>
 </a>
 <br/><sub><b>Prahara</b> - Observability platform for monitoring & tracing</sub>
 </td>
 </tr>
 </table>
+
+</div>
+
+&nbsp;
+
+---
+
+### 🤖 VidyaBot
+
+<div align="center">
+
+<a href="https://t.me/VidyaNawalaBot">
+<img src="https://raw.githubusercontent.com/nawala-team/.github/main/assets/vidya-card.svg" width="380"/>
+</a>
+
+**AI-powered assistant bot for automation**
+
+[![Telegram Bot](https://img.shields.io/badge/Telegram-@VidyaNawalaBot-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/VidyaNawalaBot)
 
 </div>
 
