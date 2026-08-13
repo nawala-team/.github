@@ -1,65 +1,52 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300">
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0a0a1a"/>
-      <stop offset="50%" style="stop-color:#1a1a2e"/>
-      <stop offset="100%" style="stop-color:#0f0f23"/>
+      <stop offset="0%" style="stop-color:#030014"/>
+      <stop offset="50%" style="stop-color:#0f0728"/>
+      <stop offset="100%" style="stop-color:#030014"/>
     </linearGradient>
     <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#7c3aed"><animate attributeName="stop-color" values="#7c3aed;#00d4ff;#FFB300;#7c3aed" dur="4s" repeatCount="indefinite"/></stop>
-      <stop offset="50%" style="stop-color:#00d4ff"><animate attributeName="stop-color" values="#00d4ff;#FFB300;#7c3aed;#00d4ff" dur="4s" repeatCount="indefinite"/></stop>
-      <stop offset="100%" style="stop-color:#FFB300"><animate attributeName="stop-color" values="#FFB300;#7c3aed;#00d4ff;#FFB300" dur="4s" repeatCount="indefinite"/></stop>
+      <stop offset="0%" style="stop-color:#7c3aed"><animate attributeName="stop-color" values="#7c3aed;#06b6d4;#f59e0b;#ec4899;#7c3aed" dur="8s" repeatCount="indefinite"/></stop>
+      <stop offset="25%" style="stop-color:#06b6d4"><animate attributeName="stop-color" values="#06b6d4;#f59e0b;#ec4899;#7c3aed;#06b6d4" dur="8s" repeatCount="indefinite"/></stop>
+      <stop offset="50%" style="stop-color:#f59e0b"><animate attributeName="stop-color" values="#f59e0b;#ec4899;#7c3aed;#06b6d4;#f59e0b" dur="8s" repeatCount="indefinite"/></stop>
+      <stop offset="75%" style="stop-color:#ec4899"><animate attributeName="stop-color" values="#ec4899;#7c3aed;#06b6d4;#f59e0b;#ec4899" dur="8s" repeatCount="indefinite"/></stop>
+      <stop offset="100%" style="stop-color:#10b981"><animate attributeName="stop-color" values="#10b981;#06b6d4;#f59e0b;#ec4899;#10b981" dur="8s" repeatCount="indefinite"/></stop>
     </linearGradient>
-    <filter id="glow"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="50%" style="stop-color:#e0e7ff"/>
+      <stop offset="100%" style="stop-color:#ffffff"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="6" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="softGlow"><feGaussianBlur stdDeviation="20" result="blur"/><feMerge><feMergeNode in="blur"/></feMerge></filter>
   </defs>
-  
-  <!-- Background -->
   <rect width="900" height="300" fill="url(#bgGrad)"/>
-  
-  <!-- Animated accent line -->
-  <rect x="0" y="0" width="900" height="4" fill="url(#accentLine)"/>
-  
-  <!-- Floating particles -->
-  <circle cx="100" cy="80" r="3" fill="#7c3aed" opacity="0.8"><animate attributeName="cy" values="80;220;80" dur="6s" repeatCount="indefinite"/></circle>
-  <circle cx="200" cy="200" r="2" fill="#00d4ff" opacity="0.6"><animate attributeName="cy" values="200;60;200" dur="5s" repeatCount="indefinite"/></circle>
-  <circle cx="750" cy="100" r="3" fill="#FFB300" opacity="0.7"><animate attributeName="cy" values="100;250;100" dur="7s" repeatCount="indefinite"/></circle>
-  <circle cx="850" cy="180" r="2" fill="#7c3aed" opacity="0.5"><animate attributeName="cy" values="180;50;180" dur="4s" repeatCount="indefinite"/></circle>
-  <circle cx="400" cy="50" r="2" fill="#00d4ff" opacity="0.6"><animate attributeName="cy" values="50;250;50" dur="8s" repeatCount="indefinite"/></circle>
-  <circle cx="600" cy="250" r="2" fill="#FFB300" opacity="0.5"><animate attributeName="cy" values="250;30;250" dur="6s" repeatCount="indefinite"/></circle>
-  
-  <!-- Glowing orbs background -->
-  <circle cx="120" cy="150" r="100" fill="#7c3aed" opacity="0.1"><animate attributeName="r" values="100;120;100" dur="3s" repeatCount="indefinite"/></circle>
-  <circle cx="780" cy="150" r="100" fill="#00d4ff" opacity="0.08"><animate attributeName="r" values="100;115;100" dur="4s" repeatCount="indefinite"/></circle>
-  
-  <!-- Main title with glow -->
-  <text x="450" y="100" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="60" font-weight="800" fill="#fff" filter="url(#glow)">NAWALA TEAM</text>
-  
-  <!-- Animated tagline -->
-  <text x="450" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#94a3b8">
-    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
-    Security • Infrastructure • Open Source
-  </text>
-  
-  <!-- Sanskrit with pulse -->
-  <text x="450" y="175" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#7c3aed">
-    <animate attributeName="fill" values="#7c3aed;#00d4ff;#FFB300;#7c3aed" dur="6s" repeatCount="indefinite"/>
-    नवल • संचल • रक्षा
-  </text>
-  
-  <!-- Project badges animated -->
-  <g transform="translate(250, 220)">
-    <rect x="0" y="0" width="120" height="35" rx="17" fill="#FFB300" opacity="0.15"><animate attributeName="opacity" values="0.15;0.3;0.15" dur="2s" repeatCount="indefinite"/></rect>
-    <text x="60" y="23" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#FFB300">Sanchala</text>
-  </g>
-  <g transform="translate(390, 220)">
-    <rect x="0" y="0" width="120" height="35" rx="17" fill="#7c3aed" opacity="0.15"><animate attributeName="opacity" values="0.15;0.3;0.15" dur="2s" repeatCount="indefinite" begin="0.5s"/></rect>
-    <text x="60" y="23" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#a855f7">Nawala</text>
-  </g>
-  <g transform="translate(530, 220)">
-    <rect x="0" y="0" width="120" height="35" rx="17" fill="#00d4ff" opacity="0.15"><animate attributeName="opacity" values="0.15;0.3;0.15" dur="2s" repeatCount="indefinite" begin="1s"/></rect>
-    <text x="60" y="23" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#22d3ee">Raksha</text>
-  </g>
-  
-  <!-- Bottom accent -->
-  <rect x="0" y="296" width="900" height="4" fill="url(#accentLine)"/>
+  <rect x="0" y="0" width="900" height="3" fill="url(#accentLine)"><animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/></rect>
+  <ellipse cx="150" cy="150" rx="200" ry="150" fill="#7c3aed" opacity="0.08" filter="url(#softGlow)"/>
+  <ellipse cx="750" cy="150" rx="200" ry="150" fill="#06b6d4" opacity="0.08" filter="url(#softGlow)"/>
+  <ellipse cx="450" cy="280" rx="300" ry="100" fill="#f59e0b" opacity="0.05" filter="url(#softGlow)"/>
+  <line x1="0" y1="150" x2="200" y2="150" stroke="#7c3aed" stroke-width="1" opacity="0.2"/>
+  <line x1="700" y1="150" x2="900" y2="150" stroke="#06b6d4" stroke-width="1" opacity="0.2"/>
+  <line x1="100" y1="50" x2="100" y2="250" stroke="#7c3aed" stroke-width="1" opacity="0.1"/>
+  <line x1="800" y1="50" x2="800" y2="250" stroke="#06b6d4" stroke-width="1" opacity="0.1"/>
+  <circle cx="80" cy="60" r="2" fill="#7c3aed" opacity="0.9"><animate attributeName="opacity" values="0.9;0.3;0.9" dur="3s" repeatCount="indefinite"/></circle>
+  <circle cx="180" cy="240" r="1.5" fill="#06b6d4" opacity="0.8"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="4s" repeatCount="indefinite"/></circle>
+  <circle cx="720" cy="80" r="2" fill="#f59e0b" opacity="0.9"><animate attributeName="opacity" values="0.9;0.3;0.9" dur="3.5s" repeatCount="indefinite"/></circle>
+  <circle cx="820" cy="220" r="1.5" fill="#ec4899" opacity="0.8"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.5s" repeatCount="indefinite"/></circle>
+  <circle cx="300" cy="40" r="1" fill="#10b981" opacity="0.7"><animate attributeName="opacity" values="0.7;0.2;0.7" dur="5s" repeatCount="indefinite"/></circle>
+  <circle cx="600" cy="260" r="1" fill="#7c3aed" opacity="0.6"><animate attributeName="opacity" values="0.6;0.2;0.6" dur="4.5s" repeatCount="indefinite"/></circle>
+  <g transform="translate(60,120)"><polygon points="40,0 80,23 80,69 40,92 0,69 0,23" fill="none" stroke="#7c3aed" stroke-width="1.5" opacity="0.6" filter="url(#glow)"/><polygon points="40,15 65,30 65,60 40,75 15,60 15,30" fill="#7c3aed" opacity="0.2"/></g>
+  <g transform="translate(760,120)"><polygon points="40,0 80,23 80,69 40,92 0,69 0,23" fill="none" stroke="#06b6d4" stroke-width="1.5" opacity="0.6" filter="url(#glow)"/><polygon points="40,15 65,30 65,60 40,75 15,60 15,30" fill="#06b6d4" opacity="0.2"/></g>
+  <text x="450" y="95" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="800" fill="url(#titleGrad)" filter="url(#glow)">NAWALA</text>
+  <text x="450" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="300" letter-spacing="12" fill="#64748b">T E A M</text>
+  <line x1="320" y1="145" x2="580" y2="145" stroke="url(#accentLine)" stroke-width="1" opacity="0.5"/>
+  <text x="450" y="172" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#94a3b8" letter-spacing="2">SECURITY FIRST SOFTWARE DEVELOPMENT</text>
+  <g transform="translate(145, 205)"><rect x="0" y="0" width="90" height="30" rx="6" fill="#f59e0b" opacity="0.15"/><rect x="0" y="0" width="90" height="30" rx="6" fill="none" stroke="#f59e0b" stroke-width="0.5" opacity="0.5"/><text x="45" y="20" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#f59e0b">Sanchala</text></g>
+  <g transform="translate(250, 205)"><rect x="0" y="0" width="90" height="30" rx="6" fill="#06b6d4" opacity="0.15"/><rect x="0" y="0" width="90" height="30" rx="6" fill="none" stroke="#06b6d4" stroke-width="0.5" opacity="0.5"/><text x="45" y="20" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#06b6d4">Raksha</text></g>
+  <g transform="translate(355, 205)"><rect x="0" y="0" width="90" height="30" rx="6" fill="#7c3aed" opacity="0.15"/><rect x="0" y="0" width="90" height="30" rx="6" fill="none" stroke="#7c3aed" stroke-width="0.5" opacity="0.5"/><text x="45" y="20" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#a78bfa">Gateway</text></g>
+  <g transform="translate(460, 205)"><rect x="0" y="0" width="90" height="30" rx="6" fill="#10b981" opacity="0.15"/><rect x="0" y="0" width="90" height="30" rx="6" fill="none" stroke="#10b981" stroke-width="0.5" opacity="0.5"/><text x="45" y="20" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#10b981">Suraksha</text></g>
+  <g transform="translate(565, 205)"><rect x="0" y="0" width="90" height="30" rx="6" fill="#ec4899" opacity="0.15"/><rect x="0" y="0" width="90" height="30" rx="6" fill="none" stroke="#ec4899" stroke-width="0.5" opacity="0.5"/><text x="45" y="20" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#ec4899">Rachana</text></g>
+  <g transform="translate(670, 205)"><rect x="0" y="0" width="90" height="30" rx="6" fill="#f97316" opacity="0.15"/><rect x="0" y="0" width="90" height="30" rx="6" fill="none" stroke="#f97316" stroke-width="0.5" opacity="0.5"/><text x="45" y="20" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#f97316">Prahara</text></g>
+  <text x="450" y="265" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#475569" letter-spacing="1">Open Source Excellence</text>
+  <rect x="0" y="297" width="900" height="3" fill="url(#accentLine)"><animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/></rect>
 </svg>
