@@ -1,58 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
   <defs>
     <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1a1a3e"/>
-      <stop offset="100%" style="stop-color:#2d2a1a"/>
+      <stop offset="0%" style="stop-color:#0f0f23"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
     </linearGradient>
     <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#FFB300"/>
-      <stop offset="100%" style="stop-color:#FF8F00"/>
+      <stop offset="100%" style="stop-color:#FF6F00"/>
     </linearGradient>
-    <filter id="glow1">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="shadow1">
-      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.3"/>
-    </filter>
+    <filter id="glow1"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="shadow1"><feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.5"/></filter>
   </defs>
-  
-  <!-- Background with border for light mode -->
   <rect width="400" height="200" fill="url(#bg1)" rx="16" filter="url(#shadow1)"/>
-  <rect width="398" height="198" x="1" y="1" fill="none" stroke="url(#gold)" stroke-width="2" rx="15">
-    <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
-  </rect>
-  
-  <!-- Floating particles -->
-  <circle cx="50" cy="30" r="2" fill="#FFB300" opacity="0.6">
-    <animate attributeName="cy" values="30;170;30" dur="4s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="350" cy="170" r="1.5" fill="#FFB300" opacity="0.4">
-    <animate attributeName="cy" values="170;30;170" dur="5s" repeatCount="indefinite"/>
-  </circle>
-  
-  <!-- Icon -->
-  <circle cx="70" cy="100" r="40" fill="url(#gold)" opacity="0.2"/>
-  <text x="70" y="115" text-anchor="middle" font-size="45" filter="url(#glow1)">💻</text>
-  
-  <!-- Title -->
-  <text x="230" y="60" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="28" font-weight="bold" filter="url(#glow1)">Sanchala OS</text>
-  
-  <!-- Version badge -->
-  <rect x="165" y="72" width="130" height="24" rx="12" fill="#FFB300" opacity="0.3"/>
-  <text x="230" y="89" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="12" font-weight="bold">v1.0 "Astra" ⚡</text>
-  
-  <!-- Description -->
-  <text x="230" y="120" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="13">Beautiful &amp; Secure Linux Distribution</text>
-  <text x="230" y="140" text-anchor="middle" fill="#fcd34d" font-family="Arial, sans-serif" font-size="11">macOS UI • 8-Layer Security • KDE Plasma 6</text>
-  
-  <!-- Tech badges -->
-  <rect x="130" y="155" width="45" height="20" rx="10" fill="#1793D1" opacity="0.4"/>
-  <text x="152" y="169" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Arch</text>
-  <rect x="185" y="155" width="45" height="20" rx="10" fill="#1D99F3" opacity="0.4"/>
-  <text x="207" y="169" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="10" font-weight="bold">KDE</text>
-  <rect x="240" y="155" width="55" height="20" rx="10" fill="#3776AB" opacity="0.4"/>
-  <text x="267" y="169" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Python</text>
-  <rect x="305" y="155" width="55" height="20" rx="10" fill="#FFB300" opacity="0.4"/>
-  <text x="332" y="169" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="10" font-weight="bold">GPL-3.0</text>
+  <rect width="398" height="198" x="1" y="1" fill="none" stroke="url(#gold)" stroke-width="1.5" rx="15" opacity="0.8"/>
+  <circle cx="50" cy="40" r="80" fill="#FFB300" opacity="0.03"/>
+  <circle cx="380" cy="180" r="60" fill="#FF6F00" opacity="0.05"/>
+  <line x1="0" y1="200" x2="120" y2="80" stroke="#FFB300" stroke-width="0.5" opacity="0.1"/>
+  <line x1="400" y1="0" x2="280" y2="120" stroke="#FF6F00" stroke-width="0.5" opacity="0.1"/>
+  <g transform="translate(55,75)">
+    <rect x="0" y="0" width="50" height="50" rx="8" fill="none" stroke="url(#gold)" stroke-width="2" filter="url(#glow1)"/>
+    <rect x="8" y="8" width="14" height="14" rx="2" fill="#FFB300" opacity="0.8"/>
+    <rect x="28" y="8" width="14" height="14" rx="2" fill="#FFB300" opacity="0.5"/>
+    <rect x="8" y="28" width="14" height="14" rx="2" fill="#FFB300" opacity="0.5"/>
+    <rect x="28" y="28" width="14" height="14" rx="2" fill="#FFB300" opacity="0.3"/>
+  </g>
+  <text x="140" y="75" fill="#ffffff" font-family="Arial, sans-serif" font-size="26" font-weight="bold">Sanchala OS</text>
+  <text x="140" y="100" fill="#FFB300" font-family="Arial, sans-serif" font-size="12" font-weight="600">v1.0 ASTRA</text>
+  <text x="140" y="125" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="12">Beautiful and Secure Linux Distribution</text>
+  <rect x="140" y="145" width="50" height="22" rx="4" fill="#1793D1" opacity="0.2"/>
+  <text x="165" y="160" text-anchor="middle" fill="#1793D1" font-family="Arial, sans-serif" font-size="10" font-weight="600">ARCH</text>
+  <rect x="198" y="145" width="45" height="22" rx="4" fill="#1D99F3" opacity="0.2"/>
+  <text x="220" y="160" text-anchor="middle" fill="#1D99F3" font-family="Arial, sans-serif" font-size="10" font-weight="600">KDE</text>
+  <rect x="251" y="145" width="55" height="22" rx="4" fill="#FFB300" opacity="0.2"/>
+  <text x="278" y="160" text-anchor="middle" fill="#FFB300" font-family="Arial, sans-serif" font-size="10" font-weight="600">GPL-3.0</text>
 </svg>
