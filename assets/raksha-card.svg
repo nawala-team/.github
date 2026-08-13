@@ -1,58 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
   <defs>
-    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1a1a3e"/>
-      <stop offset="100%" style="stop-color:#0d2a3a"/>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f23"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
     </linearGradient>
     <linearGradient id="cyan" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#00d4ff"/>
       <stop offset="100%" style="stop-color:#0891b2"/>
     </linearGradient>
-    <filter id="glow3">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="shadow3">
-      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.3"/>
-    </filter>
+    <filter id="glow2"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="shadow2"><feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.5"/></filter>
   </defs>
-  
-  <!-- Background with border for light mode -->
-  <rect width="400" height="200" fill="url(#bg3)" rx="16" filter="url(#shadow3)"/>
-  <rect width="398" height="198" x="1" y="1" fill="none" stroke="url(#cyan)" stroke-width="2" rx="15">
-    <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
-  </rect>
-  
-  <!-- Floating particles -->
-  <circle cx="55" cy="50" r="2" fill="#00d4ff" opacity="0.6">
-    <animate attributeName="cy" values="50;150;50" dur="4s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="345" cy="150" r="1.5" fill="#00d4ff" opacity="0.4">
-    <animate attributeName="cy" values="150;50;150" dur="5s" repeatCount="indefinite"/>
-  </circle>
-  
-  <!-- Icon -->
-  <circle cx="70" cy="100" r="40" fill="url(#cyan)" opacity="0.2"/>
-  <text x="70" y="115" text-anchor="middle" font-size="45" filter="url(#glow3)">🛡️</text>
-  
-  <!-- Title -->
-  <text x="230" y="60" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="26" font-weight="bold" filter="url(#glow3)">Raksha Security</text>
-  
-  <!-- Version badge -->
-  <rect x="170" y="72" width="120" height="24" rx="12" fill="#00d4ff" opacity="0.3"/>
-  <text x="230" y="89" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="12" font-weight="bold">SIEM Platform</text>
-  
-  <!-- Description -->
-  <text x="230" y="120" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="13">Security Monitoring &amp; Analytics</text>
-  <text x="230" y="140" text-anchor="middle" fill="#7dd3fc" font-family="Arial, sans-serif" font-size="11">ML Detection • Compliance • Dark Web Monitor</text>
-  
-  <!-- Tech badges -->
-  <rect x="115" y="155" width="45" height="20" rx="10" fill="#f74c00" opacity="0.4"/>
-  <text x="137" y="169" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Rust</text>
-  <rect x="170" y="155" width="55" height="20" rx="10" fill="#fff" opacity="0.3"/>
-  <text x="197" y="169" text-anchor="middle" fill="#1a1a3e" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Next.js</text>
-  <rect x="235" y="155" width="55" height="20" rx="10" fill="#3776AB" opacity="0.4"/>
-  <text x="262" y="169" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Python</text>
-  <rect x="300" y="155" width="40" height="20" rx="10" fill="#00d4ff" opacity="0.4"/>
-  <text x="320" y="169" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="10" font-weight="bold">v1.3.1</text>
+  <rect width="400" height="200" fill="url(#bg2)" rx="16" filter="url(#shadow2)"/>
+  <rect width="398" height="198" x="1" y="1" fill="none" stroke="url(#cyan)" stroke-width="1.5" rx="15" opacity="0.8"/>
+  <circle cx="50" cy="40" r="80" fill="#00d4ff" opacity="0.03"/>
+  <circle cx="380" cy="180" r="60" fill="#0891b2" opacity="0.05"/>
+  <g transform="translate(55,75)">
+    <polygon points="25,0 50,15 50,40 25,50 0,40 0,15" fill="none" stroke="url(#cyan)" stroke-width="2" filter="url(#glow2)"/>
+    <polygon points="25,10 40,20 40,35 25,42 10,35 10,20" fill="#00d4ff" opacity="0.3"/>
+    <circle cx="25" cy="25" r="8" fill="#00d4ff" opacity="0.8"/>
+  </g>
+  <text x="140" y="75" fill="#ffffff" font-family="Arial, sans-serif" font-size="26" font-weight="bold">Raksha</text>
+  <text x="140" y="100" fill="#00d4ff" font-family="Arial, sans-serif" font-size="12" font-weight="600">SECURITY PLATFORM</text>
+  <text x="140" y="125" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="12">Enterprise Threat Detection and Protection</text>
+  <rect x="140" y="145" width="45" height="22" rx="4" fill="#f74c00" opacity="0.2"/>
+  <text x="162" y="160" text-anchor="middle" fill="#f74c00" font-family="Arial, sans-serif" font-size="10" font-weight="600">RUST</text>
+  <rect x="193" y="145" width="55" height="22" rx="4" fill="#ffffff" opacity="0.1"/>
+  <text x="220" y="160" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10" font-weight="600">NEXT.JS</text>
+  <rect x="256" y="145" width="55" height="22" rx="4" fill="#00d4ff" opacity="0.2"/>
+  <text x="283" y="160" text-anchor="middle" fill="#00d4ff" font-family="Arial, sans-serif" font-size="10" font-weight="600">PUBLIC</text>
 </svg>
